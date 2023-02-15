@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "NotoSansRegular";
+    src: url(/assets/fonts/nato-sans/NotoSans-Regular.ttf);
+}
+
+header {
+    position: sticky;
+}
+
+.main-header {
+    padding: 0 25px;
+    background: black;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-items {
+    display: flex;
+}
+
+.logo img {
+    width: 150px;
+    height: 80px;
+}
+
+.nav-menu-items ul {
+    margin-bottom: 0 !important;
+}
+
+.nav-menu-items ul li {
+    display: inline-block;
+    margin: 16px 0;
+    padding: 9px 16px;
+}
+
+.nav-menu-items ul li a {
+    font-family: "NotoSansRegular";
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffffd9;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+    transition: all .5s;
+    position: relative;
+}
+
+.nav-menu-items ul li a:hover {
+    color: #fff;
+    text-align: center;
+}
+
+/*
+.nav-menu-items ul li a.active {
+
+    color: #fff;
+    text-decoration: underline;
+} */
+
+.nav-menu-items ul li:hover>a::after {
+    opacity: 1;
+    transition: width .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93);
+    width: 100%;
+}
+
+.nav-menu-items ul li a::after {
+    background: #fff;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    transition: width .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93);
+    width: 0;
+}
+
+.nav-menu-items ul li a.active::after {
+    bottom: 0;
+    opacity: 1;
+    width: 100%;
+}
+
+.right-items {
+    display: flex;
+}
+
+.search-bx {
+    width: 450px;
+}
+
+.search-bx input {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font-family: "NotoSansRegular";
+    font-size: 17px;
+    font-weight: 400;
+    height: 20px;
+    line-height: 1.4285714286em;
+    outline: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.search-wrapper .search-bx {
+    border: 1px solid hsla(0, 0%, 51%, .6);
+    border-radius: 6px;
+    height: 46px;
+    margin: 1px 16px 1px 56px;
+    padding: 0 44px;
+    position: relative;
+    z-index: 10;
+}
+
+.search-bx .search-img{
+    display: inline;
+}
+
+.search-bx .search-img img{
+    position: absolute;
+    width: 20px;
+    top: 6px;
+    left: 10px;
+}
