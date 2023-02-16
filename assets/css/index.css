@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color: #fff;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
 }
 
 @font-face {
@@ -10,13 +16,19 @@
     src: url(/assets/fonts/nato-sans/NotoSans-Regular.ttf);
 }
 
+@font-face {
+    font-family: "NotoSansBold";
+    src: url(../fonts/nato-sans/NotoSans-Bold.ttf);
+}
+
 header {
     position: sticky;
+    top: 0;
 }
 
 .main-header {
     padding: 0 25px;
-    background: black;
+    background: #0f0617;
 }
 
 nav {
@@ -96,43 +108,161 @@ nav {
 
 .right-items {
     display: flex;
+    align-items: center;
 }
 
-.search-bx {
-    width: 450px;
+.right-items div {
+    margin-right: 23px;
+}
+
+
+.right-items .search-bx {
+    border: 1px solid hsla(0, 0%, 51%, .6);
+    border-radius: 6px;
+    height: 35px;
+    margin: 1px 16px 1px 0px;
+    padding: 0 0 0 18px;
+    align-items: center;
+    display: flex;
+    width: 335px;
 }
 
 .search-bx input {
+    letter-spacing: .0100rem;
+    margin: 0 0 0 14px;
     background: transparent;
     border: 0;
     color: #fff;
     font-family: "NotoSansRegular";
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 400;
     height: 20px;
     line-height: 1.4285714286em;
     outline: 0;
     padding: 0;
     width: 100%;
-}
-
-.search-wrapper .search-bx {
-    border: 1px solid hsla(0, 0%, 51%, .6);
-    border-radius: 6px;
-    height: 46px;
-    margin: 1px 16px 1px 56px;
-    padding: 0 44px;
-    position: relative;
-    z-index: 10;
-}
-
-.search-bx .search-img{
     display: inline;
 }
 
-.search-bx .search-img img{
-    position: absolute;
-    width: 20px;
+
+.search-bx img {
+    width: 18px;
+    display: inline;
+    /* position: absolute;
     top: 6px;
-    left: 10px;
+    left: 10px; */
+}
+.login {
+    margin-bottom: 5px;
+}
+.login a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "NotoSansBold";
+    text-decoration: none;
+    color: white;
+    padding:9px 12px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93);
+}
+
+.login a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.subp {
+    margin-bottom: 5px;
+}
+.subp img {
+    margin-right: 2px;
+    width: 15px;
+    padding-bottom:5px ;
+}
+
+.subp a {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 9px 12px;
+    font-family: "NotoSansRegular";
+    font-weight: 700;
+    font-size: 11px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #8230c6;
+    border-radius: 5px;
+    transition: all .2s;
+}
+
+.subp a:hover {
+    background-color: #5c1695;
+    color: #fff;
+}
+
+.more img {
+    width: 22px;
+}
+
+/*------------ sidemenu ----------- */
+
+/* .resposive-menu-bx {
+    background-color: white;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    right: -400px;
+    top: 0;
+    z-index: 1025;
+    -webkit-box-shadow: 0px 0px 20px rgb(95 107 125 / 15%);
+    box-shadow: 0px 0px 20px rgb(95 107 125 / 15%);
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    display: none;
+}
+
+.resposive-menu-bx.active {
+    right: 0;
+} */
+
+
+
+/* -----close -----*/
+
+
+
+.bt{
+    border-top: 2px solid hsla(0,0%,100%,.1) !important;
+}
+
+
+
+
+.accordion .accordion-button span.down-icon {
+    border-style: solid;
+    border-color: currentColor;
+    -o-border-image: initial;
+    border-image: initial;
+    border-width: 0px 2px 2px 0px;
+    display: inline-block;
+    padding: 3px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg);
+    position: absolute;
+    right: 23px;
+    top: 25px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.accordion .accordion-button.collapsed span.down-icon {
+    top: 20px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
