@@ -62,125 +62,370 @@
                 </button>
             </div>
         </nav>
-        <div class="offcanvas offcanvas-end bg-prsnl" tabindex="-1" id="offcanvasDarkNavbar"
-            aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-                <!-- <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5> -->
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                    aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body scroll" style="padding: 0 15px !important;">
-                <ul class="navbar-nav justify-content-end flex-grow-1">
-                    <div class="nav-item">
-                        <a class="nav-link active brgr-menu-items" aria-current="page" href="#">Home</a>
-                    </div>
-                    <div class="accordion">
-                        <a class="brgr-menu-items nav-collapse accordion-button bt collapsed" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#explore" aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseOne">
-                            Explore
-                            <span class="down-icon"></span>
-                        </a>
-                        <div id="explore" class="accordion-collapse collapse"
-                            aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
-                                <a class="nav-link brgr-menu-items" aria-current="page" href="#">Tv Shows</a>
-                                <a class="nav-link brgr-menu-items" aria-current="page" href="#">Movies</a>
-                                <a class="nav-link brgr-menu-items" aria-current="page" href="#">Web Series</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion">
-                        <a class="brgr-menu-items nav-collapse accordion-button bt" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#plan" aria-expanded="true"
-                            aria-controls="panelsStayOpen-collapseOne">
-                            Plan
-                            <span class="down-icon"></span>
-                        </a>
-                        <div id="plan" class="accordion-collapse collapse show"
-                            aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
-                                <a class="nav-link brgr-menu-items" aria-current="page" href="#">Buy Plan</a>
-                                <a class="nav-link brgr-menu-items" aria-current="page" href="#">Buy Have a prepaid code
-                                    ?</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion">
-                        <a class="brgr-menu-items nav-collapse accordion-button bt collapsed" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#setting" aria-expanded="true"
-                            aria-controls="panelsStayOpen-collapseOne">
-                            Settings
-                            <span class="down-icon"></span>
-                        </a>
-                        <div id="setting" class="accordion-collapse collapse"
-                            aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
-                                <a class="nav-link brgr-menu-items" aria-current="page" href="#">Reset setting to
-                                    default </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion">
-                        <a class="brgr-menu-items nav-collapse accordion-button bt" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#info" aria-expanded="true"
-                            aria-controls="panelsStayOpen-collapseOne">
-                            Info
-                            <span class="down-icon"></span>
-                        </a>
-                        <div id="info" class="accordion-collapse collapse show"
-                            aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
-                                <a class="nav-link brgr-menu-items" aria-current="page" href="#">About us </a>
-                                <a class="nav-link brgr-menu-items" aria-current="page" href="#">Help Center </a>
-                                <a class="nav-link brgr-menu-items" aria-current="page" href="#">Reset setting to
-                                    default </a>
-                                <a class="nav-link brgr-menu-items" aria-current="page" href="#">Content Redressal
-                                    Mechanism </a>
-                                <a class="nav-link brgr-menu-items" aria-current="page" href="#">Term of Use </a>
-                                <a class="nav-link brgr-menu-items" aria-current="page" href="#">Privacy Policy </a>
-                            </div>
-                        </div>
-                    </div>
-                </ul>
-            </div>
-        </div>
     </header>
-    <section class="homesection">
-        <div class="owl-carousel owl-theme " id="homeslider">
-            <div class="bg pos-rel">
-                <picture>
-                    <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
-                    alt=""> -->
-                    <source media="(min-width: 1200px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
-                        sizes="">
-                    <source media="(min-width: 992px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
-                        sizes="">
-                    <source media="(min-width: 572px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
-                        sizes="">
-                    <source media="(min-width: 480px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
-                        sizes="">
-                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
-                        style="width:100%;">
-                </picture>
-                <div class="home-sldier-txt">
-                    <div class="hms-tp-txt">
-                        <img src="assets/img/crown.jpg" alt="">
+    <div class="offcanvas offcanvas-end bg-prsnl" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5> -->
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body scroll" style="padding: 0 15px !important;">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
+                <div class="nav-item">
+                    <a class="nav-link active brgr-menu-items" aria-current="page" href="#">Home</a>
+                </div>
+                <div class="accordion">
+                    <a class="brgr-menu-items nav-collapse accordion-button bt collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#explore" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        Explore
+                        <span class="down-icon"></span>
+                    </a>
+                    <div id="explore" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Tv Shows</a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Movies</a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Web Series</a>
+                        </div>
                     </div>
-                    <div class="hms-btm-txt">
-                        <p class="mv-title"> Uunchai</p>
-                        <div class="mv-plan">
-                            <div class="login me-3">
-                                <a href=""><i class="fa-solid fa-play"></i> Watch</a>
+                </div>
+                <div class="accordion">
+                    <a class="brgr-menu-items nav-collapse accordion-button bt" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#plan" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        Plan
+                        <span class="down-icon"></span>
+                    </a>
+                    <div id="plan" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Buy Plan</a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Buy Have a prepaid code
+                                ?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <a class="brgr-menu-items nav-collapse accordion-button bt collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#setting" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        Settings
+                        <span class="down-icon"></span>
+                    </a>
+                    <div id="setting" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Reset setting to
+                                default </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <a class="brgr-menu-items nav-collapse accordion-button bt" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#info" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        Info
+                        <span class="down-icon"></span>
+                    </a>
+                    <div id="info" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">About us </a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Help Center </a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Reset setting to
+                                default </a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Content Redressal
+                                Mechanism </a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Term of Use </a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Privacy Policy </a>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <section class="homesection my-3">
+        <div class="owl-carousel owl-theme " id="homeslider">
+            <div class="home-slides">
+                <div class="bg pos-rel">
+                    <picture class="d-none">
+                        <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
+                    alt=""> -->
+                        <source media="(min-width: 1200px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                            sizes="">
+                        <source media="(min-width: 992px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <source media="(min-width: 572px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                            sizes="">
+                        <source media="(min-width: 480px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            alt="" style="width:100%;">
+                    </picture>
+                    <img src="assets/img/home-slider-imgs/1.png" alt=""
+                        style="width:100%;">
+                    <div class="home-sldier-txt">
+                        <div class="hms-tp-txt">
+                            <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
+                        </div>
+                        <div class="hms-btm-txt">
+                            <p class="mv-title">Jaanbaaz Hindustan ke</p>
+                            <div class="mv-plan">
+                                <div class="login me-3">
+                                    <a href=""><i class="fa-solid fa-play"></i> Watch</a>
+                                </div>
+                                <div class="subp">
+                                    <a href="">
+                                        <img src="assets/img/premium-quality.png" alt="">
+                                        Buy Plan</a>
+                                </div>
                             </div>
-                            <div class="subp">
-                                <a href="">
-                                    <img src="assets/img/premium-quality.png" alt="">
-                                    Buy Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-slides">
+                <div class="bg pos-rel">
+                    <picture class="d-none">
+                        <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
+                    alt=""> -->
+                        <source media="(min-width: 1200px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                            sizes="">
+                        <source media="(min-width: 992px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <source media="(min-width: 572px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                            sizes="">
+                        <source media="(min-width: 480px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            alt="" style="width:100%;">
+                    </picture>
+                    <img src="assets/img/home-slider-imgs/2.png" alt=""
+                        style="width:100%;">
+                    <div class="home-sldier-txt">
+                        <div class="hms-tp-txt">
+                            <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
+                        </div>
+                        <div class="hms-btm-txt">
+                            <p class="mv-title"> Salaam Venky</p>
+                            <div class="mv-plan">
+                                <div class="login me-3">
+                                    <a href=""><i class="fa-solid fa-play"></i> Watch</a>
+                                </div>
+                                <div class="subp">
+                                    <a href="">
+                                        <img src="assets/img/premium-quality.png" alt="">
+                                        Buy Plan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-slides">
+                <div class="bg pos-rel">
+                    <picture class="d-none">
+                        <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
+                    alt=""> -->
+                        <source media="(min-width: 1200px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                            sizes="">
+                        <source media="(min-width: 992px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <source media="(min-width: 572px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                            sizes="">
+                        <source media="(min-width: 480px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            alt="" style="width:100%;">
+                    </picture>
+                    <img src="assets/img/home-slider-imgs/3.png">
+                    <div class="home-sldier-txt">
+                        <div class="hms-tp-txt">
+                            <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
+                        </div>
+                        <div class="hms-btm-txt">
+                            <p class="mv-title"> Lost</p>
+                            <div class="mv-plan">
+                                <div class="login me-3">
+                                    <a href=""><i class="fa-solid fa-play"></i> Watch</a>
+                                </div>
+                                <div class="subp">
+                                    <a href="">
+                                        <img src="assets/img/premium-quality.png" alt="">
+                                        Buy Plan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-slides">
+                <div class="bg pos-rel">
+                    <picture class="d-none">
+                        <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
+                    alt=""> -->
+                        <source media="(min-width: 1200px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                            sizes="">
+                        <source media="(min-width: 992px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <source media="(min-width: 572px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                            sizes="">
+                        <source media="(min-width: 480px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            alt="" style="width:100%;">
+                    </picture>
+                    <img src="assets/img/home-slider-imgs/4.png">
+                    <div class="home-sldier-txt">
+                        <div class="hms-tp-txt">
+                            <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
+                        </div>
+                        <div class="hms-btm-txt">
+                            <p class="mv-title"> Uunchai</p>
+                            <div class="mv-plan">
+                                <div class="login me-3">
+                                    <a href=""><i class="fa-solid fa-play"></i> Watch</a>
+                                </div>
+                                <div class="subp">
+                                    <a href="">
+                                        <img src="assets/img/premium-quality.png" alt="">
+                                        Buy Plan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-slides">
+                <div class="bg pos-rel">
+                    <picture class="d-none">
+                        <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
+                    alt=""> -->
+                        <source media="(min-width: 1200px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                            sizes="">
+                        <source media="(min-width: 992px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <source media="(min-width: 572px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                            sizes="">
+                        <source media="(min-width: 480px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            alt="" style="width:100%;">
+                    </picture>
+                    <img src="assets/img/home-slider-imgs/5.png">
+                    <div class="home-sldier-txt">
+                        <div class="hms-tp-txt">
+                            <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
+                        </div>
+                        <div class="hms-btm-txt">
+                            <p class="mv-title"> Chhatriwali</p>
+                            <div class="mv-plan">
+                                <div class="login me-3">
+                                    <a href=""><i class="fa-solid fa-play"></i> Watch</a>
+                                </div>
+                                <div class="subp">
+                                    <a href="">
+                                        <img src="assets/img/premium-quality.png" alt="">
+                                        Buy Plan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-slides">
+                <div class="bg pos-rel">
+                    <picture class="d-none">
+                        <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
+                    alt=""> -->
+                        <source media="(min-width: 1200px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                            sizes="">
+                        <source media="(min-width: 992px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <source media="(min-width: 572px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                            sizes="">
+                        <source media="(min-width: 480px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            alt="" style="width:100%;">
+                    </picture>
+                    <img src="assets/img/home-slider-imgs/6.png">
+                    <div class="home-sldier-txt">
+                        <div class="hms-tp-txt">
+                            <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
+                        </div>
+                        <div class="hms-btm-txt">
+                            <p class="mv-title"> Kundali Bhagya</p>
+                            <div class="mv-plan">
+                                <div class="login me-3">
+                                    <a href=""><i class="fa-solid fa-play"></i> Watch</a>
+                                </div>
+                                <div class="subp">
+                                    <a href="">
+                                        <img src="assets/img/premium-quality.png" alt="">
+                                        Buy Plan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-slides">
+                <div class="bg pos-rel">
+                    <picture class="d-none">
+                        <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
+                    alt=""> -->
+                        <source media="(min-width: 1200px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                            sizes="">
+                        <source media="(min-width: 992px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <source media="(min-width: 572px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                            sizes="">
+                        <source media="(min-width: 480px)"
+                            srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            sizes="">
+                        <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                            alt="" style="width:100%;">
+                    </picture>
+                    <img src="assets/img/home-slider-imgs/7.png">
+                    <div class="home-sldier-txt">
+                        <div class="hms-tp-txt">
+                            <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
+                        </div>
+                        <div class="hms-btm-txt">
+                            <p class="mv-title"> KumKum Bhagya</p>
+                            <div class="mv-plan">
+                                <div class="login me-3">
+                                    <a href=""><i class="fa-solid fa-play"></i> Watch</a>
+                                </div>
+                                <div class="subp">
+                                    <a href="">
+                                        <img src="assets/img/premium-quality.png" alt="">
+                                        Buy Plan</a>
+                                </div>
                             </div>
                         </div>
                     </div>
