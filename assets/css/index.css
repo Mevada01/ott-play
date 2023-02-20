@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    text-decoration: none !important;
     color: #fff;
 }
 
@@ -19,7 +19,7 @@ a {
 
 @font-face {
     font-family: "NotoSansRegular";
-    src: url(/assets/fonts/nato-sans/NotoSans-Regular.ttf);
+    src: url(../fonts/nato-sans/NotoSans-Regular.ttf);
 }
 
 @font-face {
@@ -29,11 +29,13 @@ a {
 
 body {
     background: #0f0617 !important;
+    font-family: "NotoSansRegular";
 }
 
 header {
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 
 .main-header {
@@ -371,6 +373,9 @@ nav {
     margin-right: 7px;
 }
 
+.bg img {
+    border-radius: 5px;
+}
 
 /* Owl buttons CSS */
 .owl-prev,
@@ -396,7 +401,7 @@ nav {
     opacity: 0.7;
     -webkit-box-shadow: 0 0 50px rgb(0 0 0 / 20%);
     box-shadow: 0 0 50px rgb(0 0 0 / 20%);
-
+    background: linear-gradient(90deg, transparent 0, rgba(0, 0, 0, .5)) !important;
 }
 
 .owl-nav {
@@ -476,13 +481,278 @@ nav {
 }
 
 
-.homesection:hover .owl-nav{
+.homesection:hover .owl-nav {
     opacity: 1;
     visibility: visible;
 }
 
-.homesection .owl-nav{
-    transition:all .2s;
+.homesection .owl-nav {
+    transition: all .2s;
     opacity: 0;
     visibility: hidden;
+}
+
+.ed-nav .owl-dots {
+    display: none;
+}
+
+.ed-nav .owl-prev {
+    left: -5px;
+}
+
+.ed-nav .owl-next {
+    right: -5px;
+}
+
+.ed-nav:hover .owl-nav {
+    opacity: 1;
+    visibility: visible;
+}
+
+.ed-nav .owl-nav {
+    transition: all .2s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/*--------   sec-2 started--------- */
+.movie-img img {
+    /* width: auto !important; */
+    border-radius: 5px;
+}
+
+.common-heading {
+    display: inline-block;
+    margin: 20px;
+}
+
+.common-heading h2 {
+    display: inline-block;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: "NotoSansRegular";
+}
+
+.more {
+    margin: 20px;
+}
+
+.more a {
+    text-decoration: none;
+    font-family: "NotoSansRegular";
+    color: #a785ff;
+}
+
+.more a:hover {
+    color: #a785ff;
+}
+
+.jb {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* -------------footer css------------- */
+
+.footer-ul-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-ul-link li a {
+    text-decoration: none;
+    position: relative;
+    border-right: 1px solid rgb(71, 71, 71);
+    color: #525252;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 0;
+    margin: 10px 0;
+    display: block;
+    padding: 0px 15px;
+    opacity: 1;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.footer-ul-link li:last-child a {
+    border: none;
+}
+
+.footer-ul-link li a.active,
+.footer-ul-link li a:hover {
+    color: #a785ff;
+}
+
+.footer-ul-link li a .bx {
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.footer-ul-link i {
+    color: rgb(71, 71, 71);
+}
+
+.footer-bottom {
+    margin-top: 25px;
+}
+
+.copyright {
+    color: rgb(71, 71, 71);
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.mede-with {
+    color: rgb(71, 71, 71);
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.mede-with a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+.mede-with a:hover {
+    color: #a785ff;
+}
+
+.icons-box-made {
+    /* border: 1px solid red; */
+    width: 12px;
+    height: 12px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    top: 2px;
+}
+
+.icons-box-made .fa-heart,
+.icons-box-made .fa-heart-o {
+    position: absolute;
+}
+
+.mede-with .fa-heart-o {
+    color: #999;
+    font-size: 12px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+.mede-with .fa-heart {
+    color: #999;
+    font-size: 12px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+.mede-with:hover .fa-heart-o {
+    opacity: 0;
+}
+
+.mede-with:hover .fa-heart {
+    opacity: 1;
+    color: #dd1627;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #777777;
+    height: 35px;
+    margin: 0px 2px;
+    width: 35px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+}
+
+.social-links a:hover {
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 10px #0000000d;
+    box-shadow: 0px 0px 10px #0000000d;
+}
+
+.social-links a .fa {
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-links a:hover .fa-facebook {
+    color: #3b5998;
+}
+
+.social-links a:hover .fa-twitter {
+    color: #00aced;
+}
+
+.social-links a:hover .fa-instagram {
+    color: #8a3ab9;
+}
+
+.social-links a:hover .fa-linkedin {
+    color: #0077b5;
+}
+
+.social-links a:hover .fa-youtube-play {
+    color: red;
+}
+
+.bdt {
+    border-top: 1px solid rgba(71, 71, 71, 0.379);
+}
+
+.footer-social-link i {
+    color: rgb(71, 71, 71);
 }
