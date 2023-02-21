@@ -77,11 +77,6 @@
     /* .right-items {
         margin: 0 0 40px 0;
     } */
-
-    .navbar-toggler {
-        margin: 0 8px 0 20px;
-    }
-
     .main-header {
         padding: 0 10px;
     }
@@ -129,6 +124,9 @@
     .common-heading h2 {
         font-size: 18px;
     }
+    .right-items div {
+        margin:0 0 0 18px;
+    }    
 }
 
 
