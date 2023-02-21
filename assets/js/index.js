@@ -18,7 +18,8 @@ $(document).ready(function () {
             // breakpoint from 0 up
             0: {
                 center: false,
-                items: 1
+                items: 1,
+                nav:false
             },
             1200: {
                 center: true,

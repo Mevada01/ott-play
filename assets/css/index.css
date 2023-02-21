@@ -35,10 +35,11 @@ body {
 header {
     position: sticky;
     top: 0;
-    z-index: 9999;
+    z-index: 100;
 }
 
 .main-header {
+    margin-top: 8px;
     padding: 0 25px;
     background: #0f0617;
 }
@@ -58,12 +59,19 @@ nav {
     height: 80px;
 }
 
+.nav-items-show {
+    display: none;
+}
 .nav-menu-items ul {
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    display: flex;
     margin-bottom: 0 !important;
 }
 
 .nav-menu-items ul li {
-    display: inline-block;
+    display: inline;
     margin: 16px 0;
     padding: 9px 16px;
 }
@@ -124,7 +132,7 @@ nav {
 }
 
 .right-items div {
-    margin-right: 23px;
+    margin:0 0 0 23px;
 }
 
 
@@ -197,9 +205,43 @@ nav {
     color: #000;
 }
 
+.cmn-btn {
+    margin-bottom: 5px;
+}
+
+.cmn-btn a {
+    background: rgba(0, 0, 0, .4);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "NotoSansBold";
+    text-decoration: none;
+    color: white;
+    padding: 9px 12px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93);
+}
+
+.cmn-btn a i {
+    transition: background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93);
+}
+
+.cmn-btn a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.cmn-btn a:hover i {
+    background-color: #fff;
+    color: #000;
+}
+
 .subp {
     margin-bottom: 5px;
 }
+
+
 
 .subp img {
     display: inline-block !important;
@@ -264,6 +306,10 @@ nav {
     border-top: 2px solid hsla(0, 0%, 100%, .1) !important;
 }
 
+
+.side-prof,.logo-res{
+    display: none;
+}
 
 
 
@@ -450,7 +496,7 @@ nav {
 
 .owl-dots {
     position: absolute;
-    bottom: -20px;
+    bottom: -25px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -528,28 +574,38 @@ nav {
 
 .common-heading h2 {
     display: inline-block;
-    font-size: 22px;
+    font-size: 20px;
     text-transform: capitalize;
     font-family: "NotoSansRegular";
 }
 
 .more {
+    display: flex;
     margin: 20px;
+    align-items: center;
 }
 
 .more a {
+    margin-right: 10px;
     text-decoration: none;
     font-family: "NotoSansRegular";
     color: #a785ff;
+    font-size: 14px;
 }
 
 .more a:hover {
     color: #a785ff;
 }
 
+.more i{
+    vertical-align: middle;
+    color: #a785ff;
+}
+
 .jb {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
