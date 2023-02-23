@@ -54,14 +54,24 @@ nav {
     display: flex;
 }
 
+.logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo svg{
+    color: red;
+}
+
 .logo img {
     width: 150px;
-    height: 80px;
 }
 
 .nav-items-show {
     display: none;
 }
+
 .nav-menu-items ul {
     white-space: nowrap;
     overflow-y: hidden;
@@ -132,7 +142,7 @@ nav {
 }
 
 .right-items div {
-    margin:0 0 0 23px;
+    margin: 0 0 0 23px;
 }
 
 
@@ -307,7 +317,8 @@ nav {
 }
 
 
-.side-prof,.logo-res{
+.side-prof,
+.logo-res {
     display: none;
 }
 
@@ -597,7 +608,7 @@ nav {
     color: #a785ff;
 }
 
-.more i{
+.more i {
     vertical-align: middle;
     color: #a785ff;
 }
@@ -811,4 +822,160 @@ nav {
 
 .footer-social-link i {
     color: rgb(71, 71, 71);
+}
+
+
+
+
+/*----------------- detail page css ----------------------- */
+
+.offer {
+    background: #401a4c;
+}
+
+
+.offer-banner {
+    border-radius: 8px;
+    font-family: "NotoSansBold";
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.offer-banner-txt h3 {
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.pffer-banner-btn {
+    font-size: 14px !important;
+}
+
+.movie-details .movie-heading {
+    margin-top: 10px;
+}
+
+.movie-details .movie-heading h2 {
+    font-family: "NotoSansBold";
+
+}
+
+.movie-details .movie-years {
+    margin: 20px 0;
+}
+
+.cmn-a {
+    margin-right: 10px;
+    font-family: "NotoSansRegular";
+    color: #a785ff !important;
+}
+
+.movie-details .mv-details a {
+    font-size: 20px;
+}
+
+.movie-details .dot {
+    margin-right: 20px;
+    position: relative;
+    padding: 0px 10px 0 0;
+}
+
+.movie-details .dot::after {
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 8px;
+    right: -10px;
+    opacity: .2;
+    position: absolute;
+    top: 13px;
+    width: 8px;
+}
+
+.movie-details .mv-details {
+    margin-bottom: 20px;
+}
+
+.movie-details .mv-details span {
+    color: hsla(0, 0%, 100%, .5);
+    font-size: 20px;
+}
+
+.movie-details .more-btn {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.movie-details .more-btn .more-btn-shwh {
+    display: flex;
+    align-items: center;
+    background: hsla(0, 0%, 100%, .04);
+    ;
+}
+
+.movie-details .more-btn .more-btn-share,
+.more-btn-wish {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px 32px 21.5px;
+}
+
+
+.movie-details .more-btn .more-btn-share img {
+    width: 30px;
+}
+
+.movie-details .more-btn .more-btn-wish img {
+    width: 30px;
+}
+
+.movie-details .more-btn a {
+    margin-top: 20px;
+    color: hsla(0, 0%, 100%, .5);
+    display: block;
+    font-family: NotoSansRegular, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -.5px;
+    line-height: .86;
+    line-height: .8571428571em;
+}
+
+
+.movie-details .more-btn .watchbtn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px 50px 21.5px;
+    background: hsla(0, 0%, 100%, .08);
+    ;
+}
+
+.movie-details .langs {
+    margin-bottom: 20px;
+}
+
+.movie-details .langs p {
+    display: inline;
+    margin-right: 10px;
+}
+
+.movie-details .sub-titles {
+    margin-bottom: 20px;
+}
+
+.movie-details .sub-titles p {
+    display: inline;
+    margin-right: 10px;
+}
+
+.movie-details .sub-titles span {
+    color: hsla(0, 0%, 100%, .5);
 }

@@ -52,7 +52,6 @@
 
     .logo-res img {
         width: 100px;
-        height: px;
     }
 
 
@@ -62,7 +61,6 @@
 
     .logo img {
         width: 100px;
-        height: px;
     }
 
     .nav-menu-items ul li {
@@ -127,6 +125,21 @@
     .right-items div {
         margin:0 0 0 18px;
     }    
+    .offer-banner{
+        padding: 10px;
+    }
+    
+    .offer-banner-txt h3{
+        font-size: 12px;
+        /* padding: 12px 10px; */
+    }
+    .offer{
+        background: #401a4c;
+    }
+    .pffer-banner-btn{
+        font-size: 13px;
+    }
+    
 }
 
 
@@ -168,7 +181,6 @@
 
     .logo img {
         widows: 75px;
-        height: 55px;
     }
 
     .common-heading h2{
