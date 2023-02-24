@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="assets/css/owl.theme.green.min.css"> -->
     <!-- <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"> -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
-</head> 
+</head>
 
 <body>
     <?php
@@ -40,21 +40,30 @@
     if ($pageId == 'detail') {
         $detailActive = 'active';
     }
+    $moviesActive = '';
+    if ($pageId == 'movies' || $pageId == 'detail') {
+        $moviesActive = 'active';
+    }
     ?>
     <header class="main-header">
         <nav>
             <div class="left-items">
                 <div class="logo">
                     <a href="/">
-                        <img src="assets/img/gujarat.svg" alt="">
-                        <img src="assets/img/pro.svg" alt="">
+                        <img src="assets/img/icon.png" alt="">
+                        <div class="icon-r-bx">
+                            <div class="icon-r-ani">
+                                <div class="icons-f"></div>
+                                <div class="icons-b"></div>
+                            </div>
+                        </div>
                     </a>
                 </div>
                 <div class="nav-menu-items nav-items-hide">
                     <ul>
-                        <li><a href="/" class="<?php echo $homeActive;?>">Home</a></li>
+                        <li><a href="/" class="<?php echo $homeActive; ?>">Home</a></li>
                         <li><a href="">TV Shows</a></li>
-                        <li><a href="/detail.php" class="<?php echo $detailActive;?>">Movies</a></li>
+                        <li><a href="/movies.php" class="<?php echo $moviesActive; ?>">Movies</a></li>
                         <li><a href="">Web Series</a></li>
                     </ul>
                 </div>
@@ -82,9 +91,9 @@
         </nav>
         <div class="nav-menu-items nav-items-show">
             <ul>
-                <li><a href="" class="active">Home</a></li>
+                <li><a href="" class="<?php echo $homeActive; ?>">Home</a></li>
                 <li><a href="">TV Shows</a></li>
-                <li><a href="">Movies</a></li>
+                <li><a href="/movies.php"class="<?php echo $moviesActive; ?>">Movies</a></li>
                 <li><a href="">Web Series</a></li>
             </ul>
         </div>

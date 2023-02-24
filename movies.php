@@ -1,5 +1,5 @@
 <?php
-$pageId = "home";
+$pageId = "movies";
 require_once 'inc/header.php';
 ?>
 

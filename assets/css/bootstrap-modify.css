@@ -40,8 +40,8 @@
     color: rgb(255, 255, 255);
     cursor: pointer;
     display: block;
-    font-family: "NotoSansRegular";
-    font-weight: 300;
+    font-family: "NotoSans";
+    font-weight: 400;
     line-height: 1.28571em;
     /* margin: 16px 0; */
     margin-bottom: 0px !important;
@@ -88,4 +88,8 @@
 
 .btn-close:focus{
     box-shadow: none  !important;
+}
+
+.accordion-button{
+    padding: 0;
 }

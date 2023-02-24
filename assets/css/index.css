@@ -17,6 +17,7 @@ a {
     text-decoration: none;
 }
 
+/* 
 @font-face {
     font-family: "NotoSansRegular";
     src: url(../fonts/nato-sans/NotoSans-Regular.ttf);
@@ -25,11 +26,24 @@ a {
 @font-face {
     font-family: "NotoSansBold";
     src: url(../fonts/nato-sans/NotoSans-Bold.ttf);
+} */
+
+@font-face {
+    font-family: "NotoSans";
+    src: url(../fonts/nato-sans/NotoSans-Regular.ttf);
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: "NotoSans";
+    src: url(../fonts/nato-sans/NotoSans-Bold.ttf);
+    font-weight: 500;
 }
 
 body {
     background: #0f0617 !important;
-    font-family: "NotoSansRegular";
+    font-family: "NotoSans";
 }
 
 header {
@@ -60,12 +74,79 @@ nav {
     justify-content: center;
 }
 
-.logo svg{
-    color: red;
+
+.icon-r-bx,
+.flip-container {
+    perspective: 200px;
+    margin-left: 3px;
 }
 
+/*speed of transition*/
+.icon-r-ani,
+.flipper {
+    transform-style: preserve-3d;
+    position: relative;
+    animation: anim 8s infinite;
+    transform-origin: center;
+}
+
+.icon-r-bx,
+.icon-r-ani,
+.icon-r-ani .icons-f,
+.icon-r-ani .icons-b {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 8px;
+}
+
+.icon-r-ani .icons-f,
+.icon-r-ani .icons-b,
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.icon-r-ani .icons-f {
+    background-image: url(../img/pro.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.icon-r-ani .icons-b {
+    background-image: url(../img/pro.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+}
+
+
+@keyframes anim {
+
+    0%,
+    5% {
+        transform: rotatey(0deg);
+    }
+
+    45%,
+    50% {
+        transform: rotatey(180deg);
+    }
+
+    100% {
+        transform: rotatey(360deg);
+    }
+
+}
+
+
 .logo img {
-    width: 150px;
+    width: 100px;
 }
 
 .nav-items-show {
@@ -87,7 +168,7 @@ nav {
 }
 
 .nav-menu-items ul li a {
-    font-family: "NotoSansRegular";
+    font-family: "NotoSans";
     font-weight: 400;
     font-size: 15px;
     color: #ffffffd9;
@@ -163,7 +244,7 @@ nav {
     background: transparent;
     border: 0;
     color: #fff;
-    font-family: "NotoSansRegular";
+    font-family: "NotoSans";
     font-size: 12px;
     font-weight: 400;
     height: 20px;
@@ -191,7 +272,7 @@ nav {
     background: rgba(0, 0, 0, .4);
     text-transform: uppercase;
     font-size: 12px;
-    font-family: "NotoSansBold";
+    font-family: "NotoSans";
     text-decoration: none;
     color: white;
     padding: 9px 12px;
@@ -223,7 +304,7 @@ nav {
     background: rgba(0, 0, 0, .4);
     text-transform: uppercase;
     font-size: 12px;
-    font-family: "NotoSansBold";
+    font-family: "NotoSans";
     text-decoration: none;
     color: white;
     padding: 9px 12px;
@@ -264,7 +345,7 @@ nav {
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 9px 12px;
-    font-family: "NotoSansRegular";
+    font-family: "NotoSans";
     font-weight: 700;
     font-size: 11px;
     text-decoration: none;
@@ -587,7 +668,8 @@ nav {
     display: inline-block;
     font-size: 20px;
     text-transform: capitalize;
-    font-family: "NotoSansRegular";
+    font-family: "NotoSans";
+    font-weight: 400;
 }
 
 .more {
@@ -836,7 +918,7 @@ nav {
 
 .offer-banner {
     border-radius: 8px;
-    font-family: "NotoSansBold";
+    font-weight: 500;
     align-items: center;
     padding: 10px 20px;
     justify-content: space-between;
@@ -852,27 +934,37 @@ nav {
     font-size: 14px !important;
 }
 
+.movie-details{
+    margin: 20px 0;
+}
+
 .movie-details .movie-heading {
     margin-top: 10px;
 }
 
 .movie-details .movie-heading h2 {
-    font-family: "NotoSansBold";
-
+    font-family: "NotoSans";
+    font-weight: 500;
 }
 
 .movie-details .movie-years {
-    margin: 20px 0;
+    margin: 30px 0;
+}
+
+.movie-details .movie-years a {
+    font-weight: 500;
 }
 
 .cmn-a {
     margin-right: 10px;
-    font-family: "NotoSansRegular";
+    font-family: "NotoSans";
+    font-weight: 400;
     color: #a785ff !important;
 }
 
 .movie-details .mv-details a {
     font-size: 20px;
+    font-weight: 500;
 }
 
 .movie-details .dot {
@@ -895,16 +987,17 @@ nav {
 }
 
 .movie-details .mv-details {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .movie-details .mv-details span {
+    font-weight: 500;
     color: hsla(0, 0%, 100%, .5);
     font-size: 20px;
 }
 
 .movie-details .more-btn {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     display: flex;
 }
 
@@ -926,19 +1019,15 @@ nav {
 }
 
 
-.movie-details .more-btn .more-btn-share img {
+.movie-details .more-btn img {
     width: 30px;
 }
 
-.movie-details .more-btn .more-btn-wish img {
-    width: 30px;
-}
 
 .movie-details .more-btn a {
     margin-top: 20px;
     color: hsla(0, 0%, 100%, .5);
     display: block;
-    font-family: NotoSansRegular, sans-serif;
     font-size: 15px;
     font-weight: 400;
     letter-spacing: -.5px;
@@ -959,7 +1048,7 @@ nav {
 }
 
 .movie-details .langs {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .movie-details .langs p {
@@ -968,7 +1057,7 @@ nav {
 }
 
 .movie-details .sub-titles {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .movie-details .sub-titles p {
@@ -976,6 +1065,97 @@ nav {
     margin-right: 10px;
 }
 
-.movie-details .sub-titles span {
+.movie-details span {
     color: hsla(0, 0%, 100%, .5);
+}
+
+.movie-details .movie-more-details p.dts {
+    font-size: 18px;
+    line-height: 1.7rem;
+
+}
+
+.movie-details .movie-more-details .accordion-button:not(.collapsed) {
+    border-bottom: none !important;
+}
+
+.movie-details .movie-more-details .brgr-menu-items {
+    padding: 0 20px 0 0 !important;
+}
+
+.movie-details .movie-more-details .cast .cast-actors p,
+a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.movie-details .movie-more-details .cast .cast-actors {
+    display: inline-block;
+    margin: 0 32px 24px 0;
+}
+
+.accordion .accordion-button.collapsed span.down-icon-thala {
+    top: 20px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+.accordion .accordion-button span.down-icon-thala {
+    border-style: solid;
+    border-color: currentColor;
+    -o-border-image: initial;
+    border-image: initial;
+    border-width: 0px 2px 2px 0px;
+    display: inline-block;
+    padding: 3px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg);
+    position: absolute;
+    right: 23px;
+    top: 25px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.movie-more-details .cast {
+    margin-top: 20px;
+}
+
+.ovr {
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100vh;
+    position: sticky;
+    top: 10px;
+}
+
+.rg-items .common-heading {
+    margin: 10px 0;
+}
+
+.rg-items .common-heading h2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.rg-items .trending-slides,
+.rg-items .movie-img {
+    display: inline-block !important;
+}
+
+.rg-items .trending-slides {
+    margin: 10px 0 !important;
+}
+
+.rg-items .rowa {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rg-items .trending-slides .movie-img img {
+    padding: 0 4px 0;
 }

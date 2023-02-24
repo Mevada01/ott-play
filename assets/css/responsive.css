@@ -122,24 +122,31 @@
     .common-heading h2 {
         font-size: 18px;
     }
+
     .right-items div {
-        margin:0 0 0 18px;
-    }    
-    .offer-banner{
+        margin: 0 0 0 18px;
+    }
+
+    .offer-banner {
         padding: 10px;
     }
-    
-    .offer-banner-txt h3{
+
+    .offer-banner-txt h3 {
         font-size: 12px;
         /* padding: 12px 10px; */
     }
-    .offer{
+
+    .offer {
         background: #401a4c;
     }
-    .pffer-banner-btn{
+
+    .pffer-banner-btn {
         font-size: 13px;
     }
-    
+
+    .cmn-a {
+        font-size: 14px;
+    }
 }
 
 
@@ -167,6 +174,46 @@
     .nav-menu-items ul li {
         padding: 9px 10px;
     }
+
+    .ovr {
+        display: none;
+    }
+
+    .cmn-a {
+        font-size: 16px;
+    }
+
+    .offer-banner {
+        padding: 10px;
+    }
+
+    .offer-banner-txt h3 {
+        font-size: 14px;
+    }
+
+    .movie-details .mv-details a{
+        font-size: 17px;
+    }
+
+    .movie-details .mv-details span{
+        font-size: 17px;
+    }
+
+    .movie-details .more-btn img {
+        width: 25px;
+    }
+    .movie-details .more-btn a{
+        font-size: 14px;
+    }
+    .movie-details .dot::after {
+        top: 10px;
+    }
+    .movie-details .movie-heading h2 {
+        font-size: 22px;
+    }
+    .movie-details .movie-more-details p.dts {
+        font-size: 17px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 420px) {
@@ -183,11 +230,11 @@
         widows: 75px;
     }
 
-    .common-heading h2{
+    .common-heading h2 {
         font-size: 14px;
     }
-    
-.common-heading {
-    margin: 10px;
-}
+
+    .common-heading {
+        margin: 10px;
+    }
 }
