@@ -7,7 +7,7 @@ require_once 'inc/header.php';
 <section>
     <div class="container-fluid px-xl-5">
         <div class="row">
-            <div class="col-xl-8">
+            <div class="col-xl-8">  
                 <video width="100%" controls autoplay>
                     <source src="assets/img/trailer.mp4" type="">
                 </video>

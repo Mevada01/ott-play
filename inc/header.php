@@ -44,6 +44,14 @@
     if ($pageId == 'movies' || $pageId == 'detail') {
         $moviesActive = 'active';
     }
+    $loginActive = '';
+    if ($pageId == 'login') {
+        $Active = 'active';
+    }
+    $registerActive = '';
+    if ($pageId == 'register') {
+        $Active = 'active';
+    }
     ?>
     <header class="main-header">
         <nav>
@@ -74,7 +82,7 @@
                     <input type="search" placeholder="Search for Movies, Shows, Channels etc.">
                 </div>
                 <div class="login">
-                    <a href="">Login</a>
+                    <a href="/login.php">Login</a>
                 </div>
                 <div class="subp">
                     <a href="" class="d-flex">
