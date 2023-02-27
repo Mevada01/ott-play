@@ -1,5 +1,6 @@
 <?php
 $pageId = "movies";
+$pageTitle="Movies || Gujarat Pro";
 require_once 'inc/header.php';
 ?>
 

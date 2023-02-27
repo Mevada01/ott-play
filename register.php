@@ -1,5 +1,6 @@
 <?php
 $pageId = "register";
+$pageTitle="Register || Gujarat Pro";
 $headerData = '<link rel="stylesheet" href="/css/index.css">';
 $headerData = '<link rel="stylesheet" href="/css/responsive.css">';
 require_once 'inc/header.php';

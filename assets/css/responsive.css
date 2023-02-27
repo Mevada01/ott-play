@@ -1,3 +1,111 @@
+@media (max-width:1200px) {
+    .search-bx {
+        display: none;
+        border: none !important;
+        border-radius: 6px;
+        height: 35px;
+        margin: 1px 16px 1px 0px;
+        padding: 0 0 0 18px;
+        align-items: center;
+        display: flex;
+        width: 0px !important;
+    }
+
+    .right-items .search-bx input {
+        display: none !important;
+    }
+
+    .login {
+        margin-left: 20px;
+    }
+
+    .nav-menu-items ul li {
+        padding: 9px 10px;
+    }
+
+    .ovr {
+        display: none;
+    }
+
+    .cmn-a {
+        font-size: 16px;
+    }
+
+    .offer-banner {
+        padding: 10px;
+    }
+
+    .offer-banner-txt h3 {
+        font-size: 12px;
+    }
+
+    .movie-details .mv-details a {
+        font-size: 17px;
+    }
+
+    .movie-details .mv-details span {
+        font-size: 17px;
+    }
+
+    .movie-details .more-btn img {
+        width: 25px;
+    }
+
+    .movie-details .more-btn a {
+        font-size: 14px;
+    }
+
+    .movie-details .dot::after {
+        top: 10px;
+    }
+
+    .movie-details .movie-heading h2 {
+        font-size: 22px;
+    }
+
+    .movie-details .movie-more-details p.dts {
+        font-size: 14px;
+    }
+
+    .movie-details .movie-more-details .cast .cast-actors {
+        display: inline-block;
+        margin: 0 30px 22px 0;
+    }
+
+    .movie-details .movie-more-details .cast .cast-actors p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .movie-details .movie-more-details .cast .cast-actors a {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .privacy .privacy-main h2,
+    .privacy .privacy-main h2 a {
+        font-size: 1.1rem;
+        text-align: left;
+        line-height: 1.25em;
+        margin: 0;
+    }
+
+    .privacy .privacy-main h3 {
+        font-size: 14px;
+        margin: 6px 0;
+    }
+
+    .privacy .privacy-main p {
+        line-height: 1.5rem;
+        margin: 0 0 21px;
+        font-size: 14px;
+    }
+
+    .privacy .privacy-main h4 {
+        font-size: 16px;
+    }
+}
+
 @media (max-width:900px) {
 
     .trending-slides .movie-img img {
@@ -147,72 +255,15 @@
     .cmn-a {
         font-size: 14px;
     }
-}
 
-
-@media (max-width:1200px) {
-    .search-bx {
-        display: none;
-        border: none !important;
-        border-radius: 6px;
-        height: 35px;
-        margin: 1px 16px 1px 0px;
-        padding: 0 0 0 18px;
-        align-items: center;
-        display: flex;
-        width: 0px !important;
+    .privacy .privacy-main p {
+        line-height: 1.2rem;
+        margin: 0 0 21px;
+        font-size: 13px;
     }
 
-    .right-items .search-bx input {
-        display: none !important;
-    }
-
-    .login {
-        margin-left: 20px;
-    }
-
-    .nav-menu-items ul li {
-        padding: 9px 10px;
-    }
-
-    .ovr {
-        display: none;
-    }
-
-    .cmn-a {
-        font-size: 16px;
-    }
-
-    .offer-banner {
-        padding: 10px;
-    }
-
-    .offer-banner-txt h3 {
-        font-size: 14px;
-    }
-
-    .movie-details .mv-details a{
-        font-size: 17px;
-    }
-
-    .movie-details .mv-details span{
-        font-size: 17px;
-    }
-
-    .movie-details .more-btn img {
-        width: 25px;
-    }
-    .movie-details .more-btn a{
-        font-size: 14px;
-    }
-    .movie-details .dot::after {
-        top: 10px;
-    }
-    .movie-details .movie-heading h2 {
-        font-size: 22px;
-    }
-    .movie-details .movie-more-details p.dts {
-        font-size: 17px;
+    .privacy .privacy-main h4 {
+        font-size: 13px;
     }
 }
 

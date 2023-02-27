@@ -1,5 +1,6 @@
 <?php
 $pageId = "home";
+$pageTitle="Gujarat Pro- TV Shows, Web Series & Movies | Rs.499 Plan at Rs.399 Only Buy Now";
 require_once 'inc/header.php';
 ?>
 

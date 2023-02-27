@@ -8,7 +8,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none !important;
     color: #fff;
 }
 
@@ -679,9 +678,9 @@ nav {
 }
 
 .more a {
+    font-weight: 400;
     margin-right: 10px;
     text-decoration: none;
-    font-family: "NotoSansRegular";
     color: #a785ff;
     font-size: 14px;
 }
@@ -1083,8 +1082,12 @@ nav {
     padding: 0 20px 0 0 !important;
 }
 
-.movie-details .movie-more-details .cast .cast-actors p,
-a {
+.movie-details .movie-more-details .cast .cast-actors p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.movie-details .movie-more-details .cast .cast-actors a {
     font-size: 16px;
     font-weight: 500;
 }
@@ -1334,20 +1337,102 @@ a {
     padding: 12px 24px;
 }
 
-.main-login .login-bottom{
+.main-login .login-bottom {
     margin: 12px 33px 0;
 }
 
-.login-bottom .registering{
-    margin-top:20px;
+.login-bottom .registering {
+    margin-top: 20px;
 }
-.login-bottom .registering span{
+
+.login-bottom .registering span {
     font-weight: 400;
     color: #333;
     font-size: 16px;
 }
-.login-bottom .registering span a{
+
+.login-bottom .registering span a {
     color: #8a3ab9;
     font-size: 16px;
     font-weight: 400;
+}
+
+
+/* ------------- about page --------------- */
+
+.about-main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    /* font-size: 18px;  */
+}
+
+.about-main p {
+    font-weight: 400;
+    line-height: 1.8rem;
+    margin: 0 0 24px;
+}
+
+.about-main a {
+    color: #a785ff;
+}
+
+
+
+/* ------------- Privacy Policy page --------------- */
+
+.privacy .privacy-main u{
+    color: #d8d8d8;
+}
+.privacy .privacy-main h2,
+.privacy .privacy-main h2 a {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    margin: 18px 0 14px 0;
+    text-align: center;
+}
+.privacy .privacy-main h4{
+    font-weight: 400;
+    font-size: 17px;
+    color: #d8d8d8;
+    margin: 0;
+}
+
+.privacy-main p {
+    color: #d8d8d8;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8rem;
+    margin: 0 0 24px;
+}
+
+.privacy .privacy-main h3{
+    color: #d8d8d8;
+    margin: 12px 0 ;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+.privacy-main a {
+    color: #a785ff ;
+}
+
+/* ----------------terms & Condition page --------------- */
+
+.tnc-main a {
+    color: #a785ff ;
+}
+.tnc-main p {
+    color: #d8d8d8;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8rem;
+    margin: 0 0 24px;
+}
+.privacy .tnc-main h2{
+    color: #d8d8d8;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    margin: 18px 0 14px 0;
+    text-align: center;
 }

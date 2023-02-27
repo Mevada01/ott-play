@@ -1,5 +1,6 @@
 <?php
 $pageId = "detail";
+$pageTitle="Detail Page || Gujarat Pro";
 $headerData = '<link rel="stylesheet" href="/css/index.css">';
 $headerData = '<link rel="stylesheet" href="/css/responsive.css">';
 require_once 'inc/header.php';
@@ -71,7 +72,7 @@ require_once 'inc/header.php';
                             <a class="brgr-menu-items nav-collapse accordion-button collapsed" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#explore" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseOne">
-                                <p class="dts">This ZEE5 Original movie revolves around Sanya, a chemistry genius who
+                                <p class="dts">This Gujarat Pro Original movie revolves around Sanya, a chemistry genius who
                                     decides to use
                                     her skills to educate the youth on safe sex and bring about a much-needed social
                                     change while looking for a job.</p>

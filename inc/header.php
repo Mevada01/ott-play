@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?php echo ((isset($pageTitle) && $pageTitle!='') ? $pageTitle : 'Gujarat Pro || OTT Platform'); ?></title>
     <link rel="stylesheet" href="assets/css/bootstrap-modify.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/font-awesome.css">
@@ -52,6 +52,18 @@
     if ($pageId == 'register') {
         $Active = 'active';
     }
+    $aboutActive = '';
+    if ($pageId == 'about') {
+        $Active = 'active';
+    }
+    $privacyActive = '';
+    if ($pageId == 'privacy') {
+        $Active = 'active';
+    }
+    $tncActive = '';
+    if ($pageId == 'tnc') {
+        $Active = 'active';
+    }
     ?>
     <header class="main-header">
         <nav>
@@ -69,10 +81,10 @@
                 </div>
                 <div class="nav-menu-items nav-items-hide">
                     <ul>
-                        <li><a href="/" class="<?php echo $homeActive; ?>">Home</a></li>
-                        <li><a href="">TV Shows</a></li>
+                        <li><a href="/index.php" class="<?php echo $homeActive; ?>">Home</a></li>
+                        <li><a href="/movies.php">TV Shows</a></li>
                         <li><a href="/movies.php" class="<?php echo $moviesActive; ?>">Movies</a></li>
-                        <li><a href="">Web Series</a></li>
+                        <li><a href="/movies.php">Web Series</a></li>
                     </ul>
                 </div>
             </div>
@@ -99,10 +111,10 @@
         </nav>
         <div class="nav-menu-items nav-items-show">
             <ul>
-                <li><a href="" class="<?php echo $homeActive; ?>">Home</a></li>
-                <li><a href="">TV Shows</a></li>
+                <li><a href="/index.php" class="<?php echo $homeActive; ?>">Home</a></li>
+                <li><a href="/movies.php">TV Shows</a></li>
                 <li><a href="/movies.php"class="<?php echo $moviesActive; ?>">Movies</a></li>
-                <li><a href="">Web Series</a></li>
+                <li><a href="/movies.php">Web Series</a></li>
             </ul>
         </div>
     </header>
@@ -120,7 +132,7 @@
         </div>
         <div class="side-prof">
             <div class="login lgn">
-                <a href="">Login</a>
+                <a href="/login.php">Login</a>
             </div>
             <div class="subp subphs">
                 <a href="">
@@ -130,7 +142,7 @@
         <div class="offcanvas-body scroll" style="padding: 0 15px !important;">
             <ul class="navbar-nav justify-content-end flex-grow-1">
                 <div class="nav-item">
-                    <a class="nav-link active brgr-menu-items" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active brgr-menu-items" aria-current="page" href="/index.php">Home</a>
                 </div>
                 <div class="accordion">
                     <a class="brgr-menu-items nav-collapse accordion-button bt collapsed" type="button"
@@ -141,9 +153,9 @@
                     </a>
                     <div id="explore" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                         <div class="accordion-body">
-                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Tv Shows</a>
-                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Movies</a>
-                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Web Series</a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="/movies.php">Tv Shows</a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="/movies.php">Movies</a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="/movies.php">Web Series</a>
                         </div>
                     </div>
                 </div>
@@ -183,14 +195,14 @@
                     </a>
                     <div id="info" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                         <div class="accordion-body">
-                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">About us </a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="/about.php">About us </a>
                             <a class="nav-link brgr-menu-items" aria-current="page" href="#">Help Center </a>
                             <a class="nav-link brgr-menu-items" aria-current="page" href="#">Reset setting to
                                 default </a>
                             <a class="nav-link brgr-menu-items" aria-current="page" href="#">Content Redressal
                                 Mechanism </a>
                             <a class="nav-link brgr-menu-items" aria-current="page" href="#">Term of Use </a>
-                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Privacy Policy </a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="/privacy-policy.php">Privacy Policy </a>
                         </div>
                     </div>
                 </div>
