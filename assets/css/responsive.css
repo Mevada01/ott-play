@@ -104,6 +104,17 @@
     .privacy .privacy-main h4 {
         font-size: 16px;
     }
+
+    .tnc .tnc-main h2 {
+        font-size: 1.1rem;
+        line-height: 1.25em;
+    }
+
+    .tnc .tnc-main p {
+        line-height: 1.5rem;
+        margin: 0 0 21px;
+        font-size: 14px;
+    }
 }
 
 @media (max-width:900px) {
@@ -265,9 +276,69 @@
     .privacy .privacy-main h4 {
         font-size: 13px;
     }
+
+    .tnc .tnc-main p {
+        line-height: 1.2rem;
+        margin: 0 0 21px;
+        font-size: 13px;
+    }
+
+    .tnc .tnc-main h4 {
+        font-size: 13px;
+    }
+
+    .movie-details .mv-details a {
+        font-size: 14px;
+    }
+
+    .movie-details .mv-details span {
+        font-size: 14px;
+    }
+
+    .movie-details .langs p,
+    .movie-details .sub-titles p,
+    .movie-details span {
+        margin-right: 0px;
+        font-size: 14px;
+    }
+
+    .movie-details .mv-details,
+    .movie-details .more-btn,
+    .movie-details .langs,
+    .movie-details .sub-titles {
+        margin-bottom: 17px;
+    }
+
+    .movie-details .movie-years {
+        margin: 17px 0;
+    }
+
+    .movie-details .movie-more-details p.dts {
+        font-size: 14px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+
+
+
+
+
+
 }
 
 @media (min-width: 320px) and (max-width: 420px) {
+
+    .icon-r-bx,
+    .icon-r-ani,
+    .icon-r-ani .icons-f,
+    .icon-r-ani .icons-b {
+        width: 33px;
+        height: 33px;
+        margin-bottom: 8px;
+    }
+
     .nav-menu-items ul li {
         padding: 9px 8px;
     }
@@ -278,7 +349,7 @@
     }
 
     .logo img {
-        widows: 75px;
+        width: 75px;
     }
 
     .common-heading h2 {
@@ -288,4 +359,15 @@
     .common-heading {
         margin: 10px;
     }
+
+    .movie-details .more-btn .watchbtn {
+        padding: 16px 16px 21.5px;
+    }
+
+    .movie-details .more-btn .more-btn-share,
+    .more-btn-wish {
+        padding: 8px 20px 12.5px;
+    }
+
+
 }

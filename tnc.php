@@ -6,7 +6,7 @@ $headerData = '<link rel="stylesheet" href="/css/responsive.css">';
 require_once 'inc/header.php';
 ?>
 
-<section class="my-lg-3 privacy">
+<section class="my-lg-3 tnc">
     <div class="container-xxl">
         <div class="tnc-main">
             <h2>

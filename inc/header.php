@@ -64,6 +64,10 @@
     if ($pageId == 'tnc') {
         $Active = 'active';
     }
+    $buyplanActive = '';
+    if ($pageId == 'buyplan') {
+        $Active = 'active';
+    }
     ?>
     <header class="main-header">
         <nav>

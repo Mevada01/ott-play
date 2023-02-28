@@ -1,6 +1,6 @@
 <?php
 $pageId = "home";
-$pageTitle="Gujarat Pro- TV Shows, Web Series & Movies | Rs.499 Plan at Rs.399 Only Buy Now";
+$pageTitle = "Gujarat Pro- TV Shows, Web Series & Movies | Rs.499 Plan at Rs.399 Only Buy Now";
 require_once 'inc/header.php';
 ?>
 
@@ -29,6 +29,8 @@ require_once 'inc/header.php';
                 </picture>
                 <a href="/detail.php">
                     <img src="assets/img/home-slider-imgs/5.png" alt="" style="width:100%;">
+                    <!-- <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-0-1z5299828/cover/1920x77023958a1676e340ddb2cd592012f3c263.jpg" -->
+                        alt="" style="width:100%;">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
