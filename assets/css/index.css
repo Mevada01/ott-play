@@ -93,8 +93,8 @@ nav {
 .icon-r-ani,
 .icon-r-ani .icons-f,
 .icon-r-ani .icons-b {
-    width: 44px;
-    height: 44px;
+    width: 33px;
+    height: 33px;
     margin-bottom: 8px;
 }
 
@@ -145,7 +145,7 @@ nav {
 
 
 .logo img {
-    width: 100px;
+    width: 80px;
 }
 
 .nav-items-show {
@@ -1454,9 +1454,9 @@ nav {
     background: linear-gradient(rgba(12, 17, 27, 0)10%, #0e0418 50%), url(../img/imgpsh_fullsize_anim.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     min-height: 100px;
-    background-position: 50% 25%;
+    background-position: 50% 25%; */
 }
 
 .buyplan-wrapper {
@@ -1468,7 +1468,7 @@ nav {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    padding-top: 7rem;
+    padding-top: 4rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1483,15 +1483,114 @@ nav {
     font-size: 27px;
 }
 
-.buyplan-wrapper .prem-table-wrapper {
-    background: linear-gradient(to bottom, #192133, #111826);
+.buyplan-wrapper .prem-table-wrappers {
+    background: #0d0517;
+    margin-top: 11px;
+    /* align-items: center; */
+    /* background: linear-gradient(to bottom, #192133, #111826); */
     width: 100%;
     max-width: 880px;
-    background: var(--BG_GRADIENT_L1);
     padding: 0 50px 20px;
     border-radius: 8px;
-    -webkit-box-shadow: 0 -80px 100px 0 #0c111b;
-    box-shadow: 0 -80px 100px 0 #0c111b;
+}
+
+.prem-table-wrapper {
+    justify-content: space-between;
+    display: flex;
+}
+
+.prem-table-wrapper .containet-bx {
+    margin-top: 70px;
+    padding-right: 40px;
+    width: 100%;
+}
+
+.prem-table-wrapper .containet-bx .contents {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.16);
+}
+
+.prem-table-wrapper .containet-bx .contents p {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #d8d8d8;
+}
+
+.prem-table-wrapper .containet-bx .contents span {
+    color: #a785ff;
+    font-size: 13px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.prem-table-wrapper .plan-bx .active {
+    border-radius: 10PX 10px 0 0;
+    background: #9842da30;
+}
+
+
+.prem-table-wrapper .plan-bx {
+    white-space: nowrap;
+    text-align: center;
+    margin: 25px 50px 0 0;
+    display: flex;
+}
+
+.prem-table-wrapper .plan-bx .superplan-bx,
+.prem-table-wrapper .plan-bx .premplan-bx {
+    opacity: 0.8;
+    width: 100%;
+    padding: 10px;
+}
+
+.prem-table-wrapper .plan-bx .superplan-bx .main-plans,
+.prem-table-wrapper .plan-bx .premplan-bx .main-plans {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.prem-table-wrapper .plan-bx .plans {
+    margin-bottom: 20px;
+    padding: 5px 0 0px 0;
+    text-align: center;
+}
+
+.plan-bx .plans:first-child {
+    margin-top: 30px;
+}
+
+.plan-bx .plans img {
+    width: 24px;
+}
+
+.plan-bx .plans span {
+    display: block;
+    font-size: 15px;
+}
+
+.prem-table-wrappers .prem-table-price {
+    display: flex;
+}
+
+.prem-table-price .active {
+    background: #9842da30;
+    border: 1px solid #9842da !important;
+}
+
+.prem-table-wrappers .prem-table-price .price {
+    margin: 19px 6px 0 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-pack: end;
+    -webkit-justify-content: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    border: 1px solid #d8d8d8ab;
+    border-radius: 5px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1501,6 +1600,48 @@ nav {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: relative;
+    cursor: pointer;
+    padding: 12px 0 2px 12px;
+    min-width: 22.7%;
 }
 
+.chk-img {
+    position: absolute;
+    top: -8PX;
+    right: -4PX;
+}
 
+.chk-img img {
+    width: 20px;
+}
+
+.conti-btn {
+    margin: 10px 0 30px;
+}
+
+.conti-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #702ba4;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.conti-btn i {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.price span.active {
+    color: gold;
+    border: none !important;
+}

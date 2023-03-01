@@ -321,14 +321,37 @@
         overflow: hidden;
     }
 
+    .buyplan {
+        background: linear-gradient(rgba(12, 17, 27, 0)0%, #0e0418 18%), url(../img/imgpsh_fullsize_anim.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 
+    .prem-table-wrapper .plan-bx {
+        margin: 25px 8px 0 0;
+    }
 
+    .buyplan-wrapper .prem-table-wrappers {
+        padding: 0 16px 20px;
+    }
 
+    .prem-table-wrapper .containet-bx {
+        padding-right: 10px;
+    }
+
+    .prem-table-wrapper .containet-bx .contents p,
+    .plan-bx .plans span {
+        font-size: 14px;
+    }
+
+    .prem-table-wrapper .plan-bx {
+        white-space: initial;
+    }
 
 
 }
 
-@media (min-width: 320px) and (max-width: 420px) {
+@media (min-width: 320px) and (max-width: 450px) {
 
     .icon-r-bx,
     .icon-r-ani,
@@ -369,5 +392,72 @@
         padding: 8px 20px 12.5px;
     }
 
+    .prem-table-wrappers .prem-table-price .price {
+        /* margin: 10px 20px 0 0; */
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        -webkit-box-pack: end;
+        -webkit-justify-content: end;
+        -ms-flex-pack: end;
+        justify-content: end;
+        border: 1px solid #d8d8d8ab;
+        border-radius: 5px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        position: relative;
+        cursor: pointer;
+        padding: 7px 0 2px 6px;
+        min-width: 22.7%;
+    }
+
+    .price p,
+    .price span {
+        font-size: 13px;
+    }
+
+    .prem-table-wrapper .containet-bx .contents p{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+    }
+    .prem-table-wrapper .containet-bx .contents p,
+    .plan-bx .plans span {
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+
+    .prem-table-wrapper .containet-bx .contents span {
+        font-size: 10px;
+    }
+
+    .prem-table-wrapper .plan-bx {
+        margin: 20px 8px 0 0;
+    }
+
+    .buyplan-wrapper .prem-table-wrappers {
+        padding: 0 5px 20px;
+    }
+
+    .prem-table-wrapper .plan-bx .plans {
+        margin-bottom: 20px;
+    }
+
+    .plan-bx .plans img {
+        width: 15px;
+    }
 
 }
