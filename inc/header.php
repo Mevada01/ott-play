@@ -101,7 +101,7 @@
                     <a href="/login.php">Login</a>
                 </div>
                 <div class="subp">
-                    <a href="" class="d-flex">
+                    <a href="/buyplan.php" class="d-flex">
                         <img src="assets/img/premium-quality.png" alt="">
                         Buy Plan</a>
                 </div>
@@ -171,7 +171,7 @@
                     </a>
                     <div id="plan" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                         <div class="accordion-body">
-                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Buy Plan</a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="/buyplan.php">Buy Plan</a>
                             <a class="nav-link brgr-menu-items" aria-current="page" href="#">Buy Have a prepaid code
                                 ?</a>
                         </div>

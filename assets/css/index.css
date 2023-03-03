@@ -1644,4 +1644,5 @@ nav {
 .price span.active {
     color: gold;
     border: none !important;
+    background: none;
 }

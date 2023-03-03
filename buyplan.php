@@ -37,7 +37,7 @@ require_once 'inc/header.php';
                                 </div>
                             </div>
                             <div class="plan-bx">
-                                <div class="superplan-bx active">
+                                <div class="superplan-bx active" id="super-plan-des">
                                     <Span class="main-plans">Super</Span>
                                     <div class="plans">
                                         <span> <img src="assets/img/True.png" alt="" class="small-img"></span>
@@ -58,7 +58,7 @@ require_once 'inc/header.php';
                                         <span>Dolby 5.1</span>
                                     </div>
                                 </div>
-                                <div class="premplan-bx">
+                                <div class="premplan-bx" id="prem-plan-des">
                                     <Span class="main-plans">Super</Span>
                                     <div class="plans">
                                         <span> <img src="assets/img/True.png" alt="" class="small-img"></span>
@@ -82,23 +82,29 @@ require_once 'inc/header.php';
                             </div>
                         </div>
                         <div class="prem-table-price">
-                            <div class="price active">
-                                <span class="active" >Super</span>
+                            <div class="price active" id="super-plan">
+                                <span class="active">Super</span>
                                 <p><b>₹899</b>/Year</p>
                                 <div class="chk-img">
                                     <img src="assets/img/check.png" alt="">
                                 </div>
                             </div>
-                            <div class="price">
+                            <div class="price" id="prem-planone">
                                 <span>Premium</span>
                                 <p><b>₹1499</b>/Year</p>
+                                <div class="chk-img">
+                                    <img src="assets/img/check.png" alt="" style="display: none;">
+                                </div>
                             </div>
-                            <div class="price">
+                            <div class="price" id="prem-plantwo">
                                 <span>Premium</span>
                                 <p><b>₹299</b>/Month</p>
+                                <div class="chk-img">
+                                    <img src="assets/img/check.png" alt="" style="display: none;">
+                                </div>
                             </div>
                         </div>
-                        <div class="conti-btn">
+                        <div class="conti-btn" id="ct-one">
                             <button>Continue With SUPER <i class="fa-solid fa-angle-right"></i></button>
                         </div>
                     </div>
