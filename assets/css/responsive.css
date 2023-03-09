@@ -243,7 +243,7 @@
     }
 
     .right-items div {
-        margin: 0 0 0 18px;
+        margin: 0 5px 0 12px;
     }
 
     .offer-banner {
@@ -351,6 +351,9 @@
 
 }
 @media (max-width:700px) {
+    nav {
+        height: 60px;
+    }
     .nav-items-show {
         display: block !important;
         scrollbar-width: none;

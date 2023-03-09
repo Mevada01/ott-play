@@ -1,6 +1,6 @@
 <?php
 $pageId = "detail";
-$pageTitle="Detail Page || Gujarat Pro";
+$pageTitle = "Detail Page || Gujarat Pro";
 $headerData = '<link rel="stylesheet" href="/css/index.css">';
 $headerData = '<link rel="stylesheet" href="/css/responsive.css">';
 require_once 'inc/header.php';
@@ -8,9 +8,9 @@ require_once 'inc/header.php';
 <section>
     <div class="container-fluid px-xl-5">
         <div class="row">
-            <div class="col-xl-8">  
+            <div class="col-xl-8">
                 <video width="100%" controls autoplay>
-                    <source src="assets/img/trailer.mp4" type="">
+                    <source src="/assets/img/trailer_gujrati.mp4" type="">
                 </video>
                 <div class="offer">
                     <div class="offer-banner">
@@ -19,7 +19,7 @@ require_once 'inc/header.php';
                         </div>
                         <div class="subp" style=" display: flex; align-items: center;">
                             <a href="" class="d-flex btn btn-sm pffer-banner-btn">
-                                <img src="assets/img/premium-quality.png" alt=""
+                                <img src="/assets/img/premium-quality.png" alt=""
                                     style="margin-right: 10px; padding-bottom:  0 !important;">
                                 Buy Plan</a>
                         </div>
@@ -27,7 +27,7 @@ require_once 'inc/header.php';
                 </div>
                 <div class="movie-details">
                     <div class="movie-heading">
-                        <h2>Chhatriwali</h2>
+                        <h2>Nadi Dosh</h2>
                     </div>
                     <div class="movie-years">
                         <a href="" class="cmn-a dot">Moives</a>
@@ -43,25 +43,25 @@ require_once 'inc/header.php';
                     <div class="more-btn">
                         <div class="more-btn-shwh">
                             <div class="more-btn-share">
-                                <img src="assets/img/share.png" alt="">
+                                <img src="/assets/img/share.png" alt="">
                                 <a href="">
                                     Share</a>
                             </div>
                             <div class="more-btn-wish">
-                                <img src="assets/img/add-list.png" alt="">
+                                <img src="/assets/img/add-list.png" alt="">
                                 <a href="">
                                     Watchlist
                                 </a>
                             </div>
                         </div>
                         <div class="watchbtn">
-                            <img src="assets/img/play-button.png" alt="">
+                            <img src="/assets/img/play-button.png" alt="">
                             <a href="">Watch Trailer</a>
                         </div>
                     </div>
                     <div class="langs">
                         <p>Audio Languages :</p>
-                        <a href="" class="cmn-a">Hindi</a>
+                        <a href="" class="cmn-a">Gujrati</a>
                     </div>
                     <div class="sub-titles">
                         <p>Subtitle :</p>
@@ -72,10 +72,9 @@ require_once 'inc/header.php';
                             <a class="brgr-menu-items nav-collapse accordion-button collapsed" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#explore" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseOne">
-                                <p class="dts">This Gujarat Pro Original movie revolves around Sanya, a chemistry genius who
-                                    decides to use
-                                    her skills to educate the youth on safe sex and bring about a much-needed social
-                                    change while looking for a job.</p>
+                                <p class="dts">New generation love birds, Riddhi and Kevin, shrewdly tackle the issue of
+                                    'Naadi Dosh', an old and dogmatic faith.
+                                </p>
                                 <span class="down-icon-thala"></span>
                             </a>
                             <div id="explore" class="accordion-collapse collapse"
@@ -84,43 +83,27 @@ require_once 'inc/header.php';
                                     <span class="mb">Cast :</span>
                                     <div class="cast">
                                         <div class="cast-actors">
-                                            <p style="margin-bottom: 8px;">Sanya Dhingra</p>
-                                            <a href="" class="cmn-a">Rakul Preet Singh</a>
+                                            <p style="margin-bottom: 8px;">Kevin</p>
+                                            <a href="" class="cmn-a">Yash Soni</a>
                                         </div>
                                         <div class="cast-actors">
-                                            <p style="margin-bottom: 8px;">Rishi Kalra</p>
-                                            <a href="" class="cmn-a">Sumeet Vyas</a>
+                                            <p style="margin-bottom: 8px;">Riddhi</p>
+                                            <a href="" class="cmn-a"> Janki Bodiwala</a>
                                         </div>
                                         <div class="cast-actors">
-                                            <p style="margin-bottom: 8px;">Ratan Lamba</p>
-                                            <a href="" class="cmn-a">Satish Kaushik</a>
+                                            <p style="margin-bottom: 8px;">Kunal</p>
+                                            <a href="" class="cmn-a">Raunaq Kamdar</a>
                                         </div>
                                         <div class="cast-actors">
-                                            <p style="margin-bottom: 8px;">Dhingra Aunty</p>
-                                            <a href="" class="cmn-a">Dolly Ahluwalia</a>
-                                        </div>
-                                        <div class="cast-actors">
-                                            <p style="margin-bottom: 8px;">Rajan Kaira (Bhai ji)</p>
-                                            <a href="" class="cmn-a">Rajesh Tailang</a>
-                                        </div>
-                                        <div class="cast-actors">
-                                            <p style="margin-bottom: 8px;">Mini Kaira</p>
-                                            <a href="" class="cmn-a">Riva Arora</a>
-                                        </div>
-                                        <div class="cast-actors">
-                                            <p style="margin-bottom: 8px;">Nisha Kaira (Bhabhi ji)</p>
-                                            <a href="" class="cmn-a">Rakul Preet Singh</a>
-                                        </div>
-                                        <div class="cast-actors">
-                                            <p style="margin-bottom: 8px;">Madan Chacha</p>
-                                            <a href="" class="cmn-a">Rakesh Bedi</a>
+                                            <p style="margin-bottom: 8px;">Prashant</p>
+                                            <a href="" class="cmn-a">Prashant Barot</a>
                                         </div>
                                     </div>
                                     <span class="mb">Creator :</span>
                                     <div class="cast">
                                         <div class="cast-actors">
                                             <p style="margin-bottom: 8px;">Director</p>
-                                            <a href="" class="cmn-a">Tejas Prabhaa Vijay Deoskar</a>
+                                            <a href="" class="cmn-a">Krishnadev Yagnik</a>
                                         </div>
                                     </div>
                                 </div>
@@ -138,45 +121,47 @@ require_once 'inc/header.php';
                             </div>
                         </div>
                     </div>
-                        <div class="row">
+                    <div class="row">
                         <div class="trending-slides col-md-6">
                             <div class="movie-img">
-                                <img src="assets/img/trending-imgs/13.png" alt="">
+                                <img src="/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                             </div>
                         </div>
                         <div class="trending-slides col-md-6">
                             <div class="movie-img ">
-                                <img src="assets/img/trending-imgs/14.png" alt="">
+                                <img src="/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                                    alt="">
                             </div>
                         </div>
                         <div class="trending-slides col-md-6">
                             <div class="movie-img">
-                                <img src="assets/img/trending-imgs/15.png" alt="">
+                                <img src="/assets/img/trending-imgs/download (1).jpeg" alt="">
                             </div>
                         </div>
                         <div class="trending-slides col-md-6">
                             <div class="movie-img">
-                                <img src="assets/img/trending-imgs/16.png" alt="">
+                                <img src="/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                             </div>
                         </div>
                         <div class="trending-slides col-md-6">
                             <div class="movie-img">
-                                <img src="assets/img/trending-imgs/17.png" alt="">
+                                <img src="/assets/img/trending-imgs/download.jpeg" alt="">
                             </div>
                         </div>
                         <div class="trending-slides col-md-6">
                             <div class="movie-img">
-                                <img src="assets/img/trending-imgs/5.png" alt="">
+                                <img src="/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                                    alt="">
                             </div>
                         </div>
                         <div class="trending-slides col-md-6">
                             <div class="movie-img">
-                                <img src="assets/img/trending-imgs/19.png" alt="">
+                                <img src="/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                             </div>
                         </div>
                         <div class="trending-slides col-md-6">
                             <div class="movie-img">
-                                <img src="assets/img/trending-imgs/1.png" alt="">
+                                <img src="/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -202,56 +187,58 @@ require_once 'inc/header.php';
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/1.png" alt="">
+                            <img src="/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/2.png" alt="">
+                            <img src="/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/3.png" alt="">
+                            <img src="/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/4.png" alt="">
+                            <img src="/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/5.png" alt="">
+                            <img src="/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/7.png" alt="">
+                            <img src="/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/8.png" alt="">
+                            <img src="/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/9.png" alt="">
+                            <img src="/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -276,56 +263,58 @@ require_once 'inc/header.php';
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/1.png" alt="">
+                            <img src="/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/2.png" alt="">
+                            <img src="/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/3.png" alt="">
+                            <img src="/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/4.png" alt="">
+                            <img src="/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/5.png" alt="">
+                            <img src="/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/7.png" alt="">
+                            <img src="/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/8.png" alt="">
+                            <img src="/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/9.png" alt="">
+                            <img src="/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -350,56 +339,58 @@ require_once 'inc/header.php';
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/1.png" alt="">
+                            <img src="/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/2.png" alt="">
+                            <img src="/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/3.png" alt="">
+                            <img src="/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/4.png" alt="">
+                            <img src="/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/5.png" alt="">
+                            <img src="/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/7.png" alt="">
+                            <img src="/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/8.png" alt="">
+                            <img src="/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/9.png" alt="">
+                            <img src="/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -424,56 +415,58 @@ require_once 'inc/header.php';
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/1.png" alt="">
+                            <img src="/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/2.png" alt="">
+                            <img src="/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/3.png" alt="">
+                            <img src="/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/4.png" alt="">
+                            <img src="/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/5.png" alt="">
+                            <img src="/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/7.png" alt="">
+                            <img src="/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/8.png" alt="">
+                            <img src="/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
                         <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/9.png" alt="">
+                            <img src="/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>
