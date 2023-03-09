@@ -27,8 +27,8 @@ require_once 'inc/header.php';
                     <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="/assets/img/trending-imgs/xl_image_16_9_1676606621.jpg" alt="" style="width:100%;">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1676606621.jpg" alt="" style="width:100%;">
                     <!-- <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-0-1z5299828/cover/1920x77023958a1676e340ddb2cd592012f3c263.jpg"
                         alt="" style="width:100%;"> -->
                 </a>
@@ -44,7 +44,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="/assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -72,8 +72,8 @@ require_once 'inc/header.php';
                     <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="/assets/img/trending-imgs/xl_image_16_9_1677240037 (1).jpg" alt="" style="width:100%;">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1677240037 (1).jpg" alt="" style="width:100%;">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
@@ -87,7 +87,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="/assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -115,8 +115,8 @@ require_once 'inc/header.php';
                     <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="/assets/img/trending-imgs/xl_image_16_9_1677240037.jpg">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1677240037.jpg">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
@@ -130,7 +130,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="/assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -158,8 +158,8 @@ require_once 'inc/header.php';
                     <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="/assets/img/trending-imgs/xl_image_16_9_1677739769.jpg">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1677739769.jpg">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
@@ -173,7 +173,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="/assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -201,8 +201,8 @@ require_once 'inc/header.php';
                     <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="/assets/img/trending-imgs/xl_image_16_9_1678097315 (1).jpg">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1678097315 (1).jpg">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
@@ -216,7 +216,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="/assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -244,8 +244,8 @@ require_once 'inc/header.php';
                     <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="/assets/img/trending-imgs/xl_image_16_9_1678097315.jpg">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1678097315.jpg">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
@@ -259,7 +259,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="/assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -287,8 +287,8 @@ require_once 'inc/header.php';
                     <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="/assets/img/trending-imgs/xl_image_16_9_1678167348.jpg">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1678167348.jpg">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
@@ -302,7 +302,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="/assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -328,59 +328,59 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trending">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
                                 alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/download (1).jpeg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/download.jpeg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
                                 alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -404,59 +404,59 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trending">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
                                 alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/download (1).jpeg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/download.jpeg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
                                 alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -480,59 +480,59 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trending">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
                                 alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/download (1).jpeg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/download.jpeg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
                                 alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -556,59 +556,59 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trending">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
                                 alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/download (1).jpeg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/download.jpeg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
                                 alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -633,59 +633,59 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trendings">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
                                 alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/download (1).jpeg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/download.jpeg" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
                                 alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>

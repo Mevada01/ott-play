@@ -1,8 +1,6 @@
 <?php
 $pageId = "buyplan";
 $pageTitle = "Avail the Best Gujarat Pro Subscription Plan & Gujarat Pro Offers | Rs 399/Year Plan ";
-$headerData = '<link rel="stylesheet" href="/css/index.css">';
-$headerData = '<link rel="stylesheet" href="/css/responsive.css">';
 require_once 'inc/header.php';
 ?>
 
@@ -40,13 +38,13 @@ require_once 'inc/header.php';
                                 <div class="superplan-bx active" id="super-plan-des">
                                     <Span class="main-plans">Super</Span>
                                     <div class="plans">
-                                        <span> <img src="assets/img/True.png" alt="" class="small-img"></span>
+                                        <span> <img src="/video/assets/img/True.png" alt="" class="small-img"></span>
                                     </div>
                                     <div class="plans">
-                                        <span> <img src="assets/img/True.png" alt="" class="small-img"></span>
+                                        <span> <img src="/video/assets/img/True.png" alt="" class="small-img"></span>
                                     </div>
                                     <div class="plans">
-                                        <span> <img src="assets/img/False.png" alt="" class="small-img"></span>
+                                        <span> <img src="/video/assets/img/False.png" alt="" class="small-img"></span>
                                     </div>
                                     <div class="plans">
                                         <span> 2</span>
@@ -61,13 +59,13 @@ require_once 'inc/header.php';
                                 <div class="premplan-bx" id="prem-plan-des">
                                     <Span class="main-plans">Super</Span>
                                     <div class="plans">
-                                        <span> <img src="assets/img/True.png" alt="" class="small-img"></span>
+                                        <span> <img src="/video/assets/img/True.png" alt="" class="small-img"></span>
                                     </div>
                                     <div class="plans">
-                                        <span> <img src="assets/img/True.png" alt="" class="small-img"></span>
+                                        <span> <img src="/video/assets/img/True.png" alt="" class="small-img"></span>
                                     </div>
                                     <div class="plans">
-                                        <span> <img src="assets/img/False.png" alt="" class="small-img"></span>
+                                        <span> <img src="/video/assets/img/False.png" alt="" class="small-img"></span>
                                     </div>
                                     <div class="plans">
                                         <span> 2</span>
@@ -86,21 +84,21 @@ require_once 'inc/header.php';
                                 <span class="active">Super</span>
                                 <p><b>₹899</b>/Year</p>
                                 <div class="chk-img">
-                                    <img src="assets/img/check.png" alt="">
+                                    <img src="/video/assets/img/check.png" alt="">
                                 </div>
                             </div>
                             <div class="price" id="prem-planone">
                                 <span>Premium</span>
                                 <p><b>₹1499</b>/Year</p>
                                 <div class="chk-img">
-                                    <img src="assets/img/check.png" alt="" style="display: none;">
+                                    <img src="/video/assets/img/check.png" alt="" style="display: none;">
                                 </div>
                             </div>
                             <div class="price" id="prem-plantwo">
                                 <span>Premium</span>
                                 <p><b>₹299</b>/Month</p>
                                 <div class="chk-img">
-                                    <img src="assets/img/check.png" alt="" style="display: none;">
+                                    <img src="/video/assets/img/check.png" alt="" style="display: none;">
                                 </div>
                             </div>
                         </div>

@@ -1,8 +1,6 @@
 <?php
 $pageId = "privacy";
 $pageTitle="Privacy Policy || Gujarat Pro";
-$headerData = '<link rel="stylesheet" href="/css/index.css">';
-$headerData = '<link rel="stylesheet" href="/css/responsive.css">';
 require_once 'inc/header.php';
 ?>
 
@@ -35,7 +33,7 @@ require_once 'inc/header.php';
             </p>
             <p>
                 All capitalized terms that have not been specifically defined herein shall have the same meaning as
-                provided under the <a href="/terms-condition.php"> Terms of Use.</a>
+                provided under the <a href="/video/terms-condition"> Terms of Use.</a>
             </p>
             <p>
                 This Privacy Policy should be read in conjunction and together with the Terms of Use.

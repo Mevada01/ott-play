@@ -34,10 +34,10 @@
         </div>
     </div>
 </footer>
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/bootstrap.js"></script>
-<script src="assets/js/owl.carousel.js"></script>
-<script src="assets/js/index.js"></script>
+<script src="/video/assets/js/jquery.js"></script>
+<script src="/video/assets/js/bootstrap.js"></script>
+<script src="/video/assets/js/owl.carousel.js"></script>
+<script src="/video/assets/js/index.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
 <!-- <?php echo $footerData; ?> -->
 </body>

@@ -1,8 +1,6 @@
 <?php
 $pageId = "about";
 $pageTitle="About Us || Gujarat Pro";
-$headerData = '<link rel="stylesheet" href="/css/index.css">';
-$headerData = '<link rel="stylesheet" href="/css/responsive.css">';
 require_once 'inc/header.php';
 ?>
 
@@ -27,7 +25,7 @@ require_once 'inc/header.php';
                 other. All you need is a compatible connected device. Tune into Gujarat Pro now, in your language!
             </p>
             <p>
-                Gujarat Pro can be accessed at <a href="/index.php"> www.GujaratPro.com </a> and application for downloading on mobile, tablet, laptop, desktop,
+                Gujarat Pro can be accessed at <a href="/"> www.GujaratPro.com </a> and application for downloading on mobile, tablet, laptop, desktop,
                 etc. is available on the Google Play Store and Apple App Store.
             </p>
         </div>

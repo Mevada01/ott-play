@@ -6,23 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo ((isset($pageTitle) && $pageTitle!='') ? $pageTitle : 'Gujarat Pro || OTT Platform'); ?></title>
-    <link rel="stylesheet" href="assets/css/bootstrap-modify.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/video/assets/css/bootstrap-modify.css">
+    <link rel="stylesheet" href="/video/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/video/assets/css/font-awesome.css">
+    <link rel="stylesheet" href="/video/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="/video/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/video/assets/css/owl.theme.default.css">
+    <link rel="stylesheet" href="/video/assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/video/assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <!-- <?php echo $headerData; ?> -->
+    <link rel="stylesheet" href="/video/assets/css/index.css">
+    <link rel="stylesheet" href="/video/assets/css/responsive.css">
+    <?php echo $headerData; ?>
 
     <!-- <link rel="stylesheet" href="assets/css/owl.theme.green.css">
     <link rel="stylesheet" href="assets/css/owl.theme.green.min.css"> -->
@@ -74,7 +74,7 @@
             <div class="left-items">
                 <div class="logo">
                     <a href="/">
-                        <img src="assets/img/icon.png" alt="">
+                        <img src="/video/assets/img/icon.png" alt="">
                         <div class="icon-r-bx">
                             <div class="icon-r-ani">
                                 <div class="icons-f"></div>
@@ -85,24 +85,24 @@
                 </div>
                 <div class="nav-menu-items nav-items-hide">
                     <ul>
-                        <li><a href="/index.php" class="<?php echo $homeActive; ?>">Home</a></li>
-                        <li><a href="/movies.php">TV Shows</a></li>
-                        <li><a href="/movies.php" class="<?php echo $moviesActive; ?>">Movies</a></li>
-                        <li><a href="/movies.php">Web Series</a></li>
+                        <li><a href="/video" class="<?php echo $homeActive; ?>">Home</a></li>
+                        <li><a href="/video/movies">TV Shows</a></li>
+                        <li><a href="/video/movies" class="<?php echo $moviesActive; ?>">Movies</a></li>
+                        <li><a href="/video/movies">Web Series</a></li>
                     </ul>
                 </div>
             </div>
             <div class="right-items">
                 <div class="search-bx">
-                    <img src="assets/img/search-13-24.png" alt="" class="search-pb">
+                    <img src="/video/assets/img/search-13-24.png" alt="" class="search-pb">
                     <input type="search" placeholder="Search for Movies, Shows, Channels etc.">
                 </div>
                 <div class="login">
-                    <a href="/login.php">Login</a>
+                    <a href="/video/login">Login</a>
                 </div>
                 <div class="subp">
-                    <a href="/buyplan.php" class="d-flex">
-                        <img src="assets/img/premium-quality.png" alt="">
+                    <a href="/buyplan" class="d-flex">
+                        <img src="/video/assets/img/premium-quality.png" alt="">
                         Buy Plan</a>
                 </div>
                 <div>
@@ -115,10 +115,10 @@
         </nav>
         <div class="nav-menu-items nav-items-show">
             <ul>
-                <li><a href="/index.php" class="<?php echo $homeActive; ?>">Home</a></li>
-                <li><a href="/movies.php">TV Shows</a></li>
-                <li><a href="/movies.php"class="<?php echo $moviesActive; ?>">Movies</a></li>
-                <li><a href="/movies.php">Web Series</a></li>
+                <li><a href="/video" class="<?php echo $homeActive; ?>">Home</a></li>
+                <li><a href="/video/movies">TV Shows</a></li>
+                <li><a href="/video/movies"class="<?php echo $moviesActive; ?>">Movies</a></li>
+                <li><a href="/video/movies">Web Series</a></li>
             </ul>
         </div>
     </header>
@@ -130,13 +130,13 @@
                 aria-label="Close"></button>
             <div class="logo-res">
                 <a href="">
-                    <img src="assets/img/logo.png" alt="">
+                    <img src="/video/assets/img/logo.png" alt="">
                 </a>
             </div>
         </div>
         <div class="side-prof">
             <div class="login lgn">
-                <a href="/login.php">Login</a>
+                <a href="/video/login">Login</a>
             </div>
             <div class="subp subphs">
                 <a href="">
@@ -146,7 +146,7 @@
         <div class="offcanvas-body scroll" style="padding: 0 15px !important;">
             <ul class="navbar-nav justify-content-end flex-grow-1">
                 <div class="nav-item">
-                    <a class="nav-link active brgr-menu-items" aria-current="page" href="/index.php">Home</a>
+                    <a class="nav-link active brgr-menu-items" aria-current="page" href="/video">Home</a>
                 </div>
                 <div class="accordion">
                     <a class="brgr-menu-items nav-collapse accordion-button bt collapsed" type="button"
@@ -157,9 +157,9 @@
                     </a>
                     <div id="explore" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                         <div class="accordion-body">
-                            <a class="nav-link brgr-menu-items" aria-current="page" href="/movies.php">Tv Shows</a>
-                            <a class="nav-link brgr-menu-items" aria-current="page" href="/movies.php">Movies</a>
-                            <a class="nav-link brgr-menu-items" aria-current="page" href="/movies.php">Web Series</a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="/video/movies">Tv Shows</a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="/video/movies">Movies</a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="/video/movies">Web Series</a>
                         </div>
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                     </a>
                     <div id="plan" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                         <div class="accordion-body">
-                            <a class="nav-link brgr-menu-items" aria-current="page" href="/buyplan.php">Buy Plan</a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="/video/buyplan">Buy Plan</a>
                             <a class="nav-link brgr-menu-items" aria-current="page" href="#">Buy Have a prepaid code
                                 ?</a>
                         </div>
@@ -199,14 +199,14 @@
                     </a>
                     <div id="info" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                         <div class="accordion-body">
-                            <a class="nav-link brgr-menu-items" aria-current="page" href="/about.php">About us </a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="/video/about">About us </a>
                             <a class="nav-link brgr-menu-items" aria-current="page" href="#">Help Center </a>
                             <a class="nav-link brgr-menu-items" aria-current="page" href="#">Reset setting to
                                 default </a>
                             <a class="nav-link brgr-menu-items" aria-current="page" href="#">Content Redressal
                                 Mechanism </a>
-                            <a class="nav-link brgr-menu-items" aria-current="page" href="#">Term of Use </a>
-                            <a class="nav-link brgr-menu-items" aria-current="page" href="/privacy-policy.php">Privacy Policy </a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="/video/tnc">Term of Use </a>
+                            <a class="nav-link brgr-menu-items" aria-current="page" href="/video/privacy-policy">Privacy Policy </a>
                         </div>
                     </div>
                 </div>

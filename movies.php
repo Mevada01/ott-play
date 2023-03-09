@@ -13,22 +13,22 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="assets/img/home-slider-imgs/5.png" alt="" style="width:100%;">
+                <a href="//video/detail">
+                    <img src="/video/assets/img/home-slider-imgs/5.png" alt="" style="width:100%;">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
@@ -42,7 +42,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -56,22 +56,22 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="assets/img/home-slider-imgs/2.png" alt="" style="width:100%;">
+                <a href="//video/detail">
+                    <img src="/video/assets/img/home-slider-imgs/2.png" alt="" style="width:100%;">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
@@ -85,7 +85,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -99,22 +99,22 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="assets/img/home-slider-imgs/3.png">
+                <a href="//video/detail">
+                    <img src="/video/assets/img/home-slider-imgs/3.png">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
@@ -128,7 +128,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -142,22 +142,22 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="assets/img/home-slider-imgs/4.png">
+                <a href="//video/detail">
+                    <img src="/video/assets/img/home-slider-imgs/4.png">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
@@ -171,7 +171,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -185,22 +185,22 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="assets/img/home-slider-imgs/1.png">
+                <a href="//video/detail">
+                    <img src="/video/assets/img/home-slider-imgs/1.png">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
@@ -214,7 +214,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -228,22 +228,22 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="assets/img/home-slider-imgs/6.png">
+                <a href="//video/detail">
+                    <img src="/video/assets/img/home-slider-imgs/6.png">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
@@ -257,7 +257,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -271,22 +271,22 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="/detail.php">
-                    <img src="assets/img/home-slider-imgs/7.png">
+                <a href="//video/detail">
+                    <img src="/video/assets/img/home-slider-imgs/7.png">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
@@ -300,7 +300,7 @@ require_once 'inc/header.php';
                             </div>
                             <div class="subp">
                                 <a href="">
-                                    <img src="assets/img/premium-quality.png" alt="">
+                                    <img src="/video/assets/img/premium-quality.png" alt="">
                                     Buy Plan</a>
                             </div>
                         </div>
@@ -326,57 +326,57 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trending">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/1.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/1.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/2.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/2.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/3.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/3.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/4.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/4.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/5.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/5.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/7.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/7.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/8.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/8.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/9.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/9.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -400,57 +400,57 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trending">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/1.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/1.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/2.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/2.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/3.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/3.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/4.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/4.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/5.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/5.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/7.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/7.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/8.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/8.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/9.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/9.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -474,57 +474,57 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trending">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/1.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/1.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/2.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/2.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/3.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/3.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/4.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/4.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/5.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/5.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/7.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/7.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/8.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/8.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/9.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/9.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -548,55 +548,55 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trending">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/1.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/1.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/2.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/2.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/3.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/3.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/4.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/4.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/5.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/5.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <img src="assets/img/trending-imgs/7.png" alt="">
+                        <img src="/video/assets/img/trending-imgs/7.png" alt="">
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/8.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/8.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/9.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/9.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -621,57 +621,57 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trendings">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/1.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/1.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/2.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/2.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/3.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/3.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/4.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/4.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/5.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/5.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/7.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/7.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/8.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/8.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="/detail.php">
-                            <img src="assets/img/trending-imgs/9.png" alt="">
+                        <a href="//video/detail">
+                            <img src="/video/assets/img/trending-imgs/9.png" alt="">
                         </a>
                     </div>
                 </div>

@@ -1,8 +1,6 @@
 <?php
 $pageId = "register";
 $pageTitle="Register || Gujarat Pro";
-$headerData = '<link rel="stylesheet" href="/css/index.css">';
-$headerData = '<link rel="stylesheet" href="/css/responsive.css">';
 require_once 'inc/header.php';
 ?>
 
@@ -20,22 +18,22 @@ require_once 'inc/header.php';
             <div class="social-icon-login">
                 <div class="googlelogin-icon ">
                     <a href="">
-                        <img src="assets/img/google-social-icon-circle.svg" alt="">
+                        <img src="/video/assets/img/google-social-icon-circle.svg" alt="">
                     </a>
                 </div>
                 <div class="fbicon-icon ">
                     <a href="">
-                        <img src="assets/img/fb-social-icon-circle.svg" alt="">
+                        <img src="/video/assets/img/fb-social-icon-circle.svg" alt="">
                     </a>
                 </div>
                 <div class="twicon-icon ">
                     <a href="">
-                        <img src="assets/img/twitter-social-icon.svg" alt="">
+                        <img src="/video/assets/img/twitter-social-icon.svg" alt="">
                     </a>
                 </div>
                 <div class="aplelogin-icon ">
                     <a href="">
-                        <img src="assets/img/apple-social-icon-circle.svg" alt="">
+                        <img src="/video/assets/img/apple-social-icon-circle.svg" alt="">
                     </a>
                 </div>
             </div>
@@ -57,7 +55,7 @@ require_once 'inc/header.php';
                     <button disabled  class="buttongradient logininBtn">Create acccount</button>
                 </div>
                 <div class="registering">
-                    <span>Already registered? <a href="/login.php">Login</a></span>
+                    <span>Already registered? <a href="/video/login.php">Login</a></span>
                 </div>
             </div>
         </div>
