@@ -678,6 +678,7 @@ nav {
 }
 
 .more a {
+    white-space: nowrap;
     font-weight: 400;
     margin-right: 10px;
     text-decoration: none;

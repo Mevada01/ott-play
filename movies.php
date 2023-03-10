@@ -13,29 +13,31 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="//video/detail">
-                    <img src="/video/assets/img/home-slider-imgs/5.png" alt="" style="width:100%;">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1676606621.jpg" alt="" style="width:100%;">
+                    <!-- <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-0-1z5299828/cover/1920x77023958a1676e340ddb2cd592012f3c263.jpg"
+                        alt="" style="width:100%;"> -->
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
                         <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
                     </div>
                     <div class="hms-btm-txt">
-                        <p class="mv-title">Jaanbaaz Hindustan ke</p>
+                        <p class="mv-title">Nadi Dosh</p>
                         <div class="mv-plan">
                             <div class="cmn-btn me-3">
                                 <a href=""><i class="fa-solid fa-play"></i> Watch</a>
@@ -56,29 +58,29 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="//video/detail">
-                    <img src="/video/assets/img/home-slider-imgs/2.png" alt="" style="width:100%;">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1677240037 (1).jpg" alt="" style="width:100%;">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
                         <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
                     </div>
                     <div class="hms-btm-txt">
-                        <p class="mv-title"> Salaam Venky</p>
+                        <p class="mv-title"> Chabutro</p>
                         <div class="mv-plan">
                             <div class="cmn-btn me-3">
                                 <a href=""><i class="fa-solid fa-play"></i> Watch</a>
@@ -99,29 +101,29 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="//video/detail">
-                    <img src="/video/assets/img/home-slider-imgs/3.png">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1677240037.jpg">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
                         <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
                     </div>
                     <div class="hms-btm-txt">
-                        <p class="mv-title"> Lost</p>
+                        <p class="mv-title"> Bairaono Bahubali </p>
                         <div class="mv-plan">
                             <div class="cmn-btn me-3">
                                 <a href=""><i class="fa-solid fa-play"></i> Watch</a>
@@ -142,29 +144,29 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="//video/detail">
-                    <img src="/video/assets/img/home-slider-imgs/4.png">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1677739769.jpg">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
                         <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
                     </div>
                     <div class="hms-btm-txt">
-                        <p class="mv-title"> Uunchai</p>
+                        <p class="mv-title"> Goti Soda Season-3</p>
                         <div class="mv-plan">
                             <div class="cmn-btn me-3">
                                 <a href=""><i class="fa-solid fa-play"></i> Watch</a>
@@ -185,29 +187,29 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="//video/detail">
-                    <img src="/video/assets/img/home-slider-imgs/1.png">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1678097315 (1).jpg">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
                         <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
                     </div>
                     <div class="hms-btm-txt">
-                        <p class="mv-title"> Chhatriwali</p>
+                        <p class="mv-title"> Hun Iqbal</p>
                         <div class="mv-plan">
                             <div class="cmn-btn me-3">
                                 <a href=""><i class="fa-solid fa-play"></i> Watch</a>
@@ -228,29 +230,29 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="//video/detail">
-                    <img src="/video/assets/img/home-slider-imgs/6.png">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1678097315.jpg">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
                         <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
                     </div>
                     <div class="hms-btm-txt">
-                        <p class="mv-title"> Kundali Bhagya</p>
+                        <p class="mv-title"> Shubh Mangal Savdhan</p>
                         <div class="mv-plan">
                             <div class="cmn-btn me-3">
                                 <a href=""><i class="fa-solid fa-play"></i> Watch</a>
@@ -271,29 +273,29 @@ require_once 'inc/header.php';
                     <!-- <img src="1920x7700066b508470f4a1f95db0fb4a2320be0.png"
                     alt=""> -->
                     <source media="(min-width: 1200px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1920x770c6300138e66e4caeb7bf3a4f9f02067bs.png"
                         sizes="">
                     <source media="(min-width: 992px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
                     <source media="(min-width: 572px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/1440x8106c82ad9c60f64275a68b154ef90dfed2s.png"
                         sizes="">
                     <source media="(min-width: 480px)"
-                        srcset="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
+                        srcset="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png"
                         sizes="">
-                    <img src="/video/assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
+                    <img src="assets/img/home-slider-img/multi-imgs/480x8106c82ad9c60f64275a68b154ef90dfed2.png" alt=""
                         style="width:100%;">
                 </picture>
-                <a href="//video/detail">
-                    <img src="/video/assets/img/home-slider-imgs/7.png">
+                <a href="/video/detail">
+                    <img src="/video/assets/img/trending-imgs/xl_image_16_9_1678167348.jpg">
                 </a>
                 <div class="home-sldier-txt">
                     <div class="hms-tp-txt">
                         <img src="https://www.zee5.com/images/premium-ic.svg?ver=2.53.3" alt="">
                     </div>
                     <div class="hms-btm-txt">
-                        <p class="mv-title"> KumKum Bhagya</p>
+                        <p class="mv-title"> Hu Tari Heer</p>
                         <div class="mv-plan">
                             <div class="cmn-btn me-3">
                                 <a href=""><i class="fa-solid fa-play"></i> Watch</a>
@@ -326,57 +328,59 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trending">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/1.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/2.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/3.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/4.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/5.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/7.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/8.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/9.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -400,57 +404,59 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trending">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/1.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/2.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/3.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/4.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/5.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/7.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/8.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/9.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -474,57 +480,59 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trending">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/1.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/2.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/3.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/4.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/5.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/7.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/8.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/9.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -548,55 +556,59 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trending">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/1.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/2.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/3.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/4.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/5.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <img src="/video/assets/img/trending-imgs/7.png" alt="">
-                    </div>
-                </div>
-                <div class="trending-slides">
-                    <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/8.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/9.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="trending-slides">
+                    <div class="movie-img">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -621,57 +633,59 @@ require_once 'inc/header.php';
             <div class="owl-carousel owl-theme trendings" id="trendings">
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/1.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/_a41fd56a-0f58-11e8-ba67-a8387f729390.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img ">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/2.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/gajab-thai-gayo-et00324472-11-03-2022-03-31-22.png"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/3.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download (1).jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/4.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Cash-On-Delivery.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/5.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/download.jpeg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/7.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/Swagatam-Gujarati-Movie-Official-Poster-208x300.jpg"
+                                alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/8.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/pappatamne1920x770.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="trending-slides">
                     <div class="movie-img">
-                        <a href="//video/detail">
-                            <img src="/video/assets/img/trending-imgs/9.png" alt="">
+                        <a href="/video/detail">
+                            <img src="/video/assets/img/trending-imgs/et00346305-jwtmlrrtkk-portrait.png" alt="">
                         </a>
                     </div>
                 </div>
